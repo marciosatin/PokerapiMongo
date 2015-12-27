@@ -1,0 +1,8 @@
+{
+  "name": "pokerapimongo",
+  "description": "The best poker api in the history of the world",
+  "version": "0.0.1",
+  "dependencies": {
+    "mongoose": "3.6.x"
+  }
+}

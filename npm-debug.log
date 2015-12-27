@@ -1,0 +1,2098 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json pokerapimongo@0.0.1 No repository field.
+6 warn package.json pokerapimongo@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/vagrant/app/Express', [ 'mongoose' ] ]
+9 info preinstall pokerapimongo@0.0.1
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'mongoose@3.6.x', null ]
+12 verbose cache add name=undefined spec="mongoose@3.6.x" args=["mongoose@3.6.x",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'mongoose@3.6.x',
+13 verbose parsed url   path: 'mongoose@3.6.x',
+13 verbose parsed url   href: 'mongoose@3.6.x' }
+14 verbose cache add name="mongoose" spec="3.6.x" args=["mongoose","3.6.x"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '3.6.x',
+15 verbose parsed url   path: '3.6.x',
+15 verbose parsed url   href: '3.6.x' }
+16 verbose addNamed [ 'mongoose', '3.6.x' ]
+17 verbose addNamed [ null, '>=3.6.0-0 <3.7.0-0' ]
+18 silly lockFile efc1bb8e-mongoose-3-6-x mongoose@3.6.x
+19 verbose lock mongoose@3.6.x /home/vagrant/.npm/efc1bb8e-mongoose-3-6-x.lock
+20 silly addNameRange { name: 'mongoose', range: '>=3.6.0-0 <3.7.0-0', hasData: false }
+21 verbose url raw mongoose
+22 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+23 verbose url resolved https://registry.npmjs.org/mongoose
+24 info trying registry request attempt 1 at 18:35:01
+25 verbose etag "69UYEHPP1N8O8WRB9SLEJBPG8"
+26 http GET https://registry.npmjs.org/mongoose
+27 http 304 https://registry.npmjs.org/mongoose
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:02 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=300',
+28 silly registry.get     etag: '"69UYEHPP1N8O8WRB9SLEJBPG8"',
+28 silly registry.get     age: '86',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1450982102.477792,VS0,VE1',
+28 silly registry.get     vary: 'Accept' } ]
+29 verbose etag mongoose from cache
+30 silly addNameRange number 2 { name: 'mongoose', range: '>=3.6.0-0 <3.7.0-0', hasData: true }
+31 silly addNameRange versions [ 'mongoose',
+31 silly addNameRange   [ '0.0.1',
+31 silly addNameRange     '0.0.2',
+31 silly addNameRange     '0.0.3',
+31 silly addNameRange     '0.0.4',
+31 silly addNameRange     '0.0.5',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '0.0.6',
+31 silly addNameRange     '1.0.3',
+31 silly addNameRange     '1.0.4',
+31 silly addNameRange     '1.0.5',
+31 silly addNameRange     '1.0.6',
+31 silly addNameRange     '1.0.7',
+31 silly addNameRange     '1.0.8',
+31 silly addNameRange     '1.0.10',
+31 silly addNameRange     '1.0.11',
+31 silly addNameRange     '1.0.12',
+31 silly addNameRange     '1.0.13',
+31 silly addNameRange     '1.0.14',
+31 silly addNameRange     '1.0.15',
+31 silly addNameRange     '1.0.16',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.1.1',
+31 silly addNameRange     '1.1.2',
+31 silly addNameRange     '1.1.3',
+31 silly addNameRange     '1.1.4',
+31 silly addNameRange     '1.1.5',
+31 silly addNameRange     '1.1.6',
+31 silly addNameRange     '1.1.7',
+31 silly addNameRange     '1.1.8',
+31 silly addNameRange     '1.1.9',
+31 silly addNameRange     '1.1.10',
+31 silly addNameRange     '1.1.11',
+31 silly addNameRange     '1.1.12',
+31 silly addNameRange     '1.1.13',
+31 silly addNameRange     '1.1.14',
+31 silly addNameRange     '1.1.15',
+31 silly addNameRange     '1.1.16',
+31 silly addNameRange     '1.1.17',
+31 silly addNameRange     '1.1.18',
+31 silly addNameRange     '1.1.19',
+31 silly addNameRange     '1.1.20',
+31 silly addNameRange     '1.1.21',
+31 silly addNameRange     '1.1.22',
+31 silly addNameRange     '1.1.23',
+31 silly addNameRange     '1.1.24',
+31 silly addNameRange     '1.1.25',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.3.0',
+31 silly addNameRange     '1.3.1',
+31 silly addNameRange     '1.3.2',
+31 silly addNameRange     '1.3.3',
+31 silly addNameRange     '1.3.4',
+31 silly addNameRange     '1.3.5',
+31 silly addNameRange     '1.3.6',
+31 silly addNameRange     '1.3.7',
+31 silly addNameRange     '1.4.0',
+31 silly addNameRange     '1.5.0',
+31 silly addNameRange     '1.6.0',
+31 silly addNameRange     '1.7.2',
+31 silly addNameRange     '1.7.3',
+31 silly addNameRange     '1.7.4',
+31 silly addNameRange     '1.8.0',
+31 silly addNameRange     '1.8.1',
+31 silly addNameRange     '1.8.2',
+31 silly addNameRange     '1.8.3',
+31 silly addNameRange     '1.8.4',
+31 silly addNameRange     '2.0.0',
+31 silly addNameRange     '2.0.1',
+31 silly addNameRange     '2.0.2',
+31 silly addNameRange     '2.0.3',
+31 silly addNameRange     '2.0.4',
+31 silly addNameRange     '2.1.0',
+31 silly addNameRange     '2.1.1',
+31 silly addNameRange     '2.1.2',
+31 silly addNameRange     '2.1.3',
+31 silly addNameRange     '2.1.4',
+31 silly addNameRange     '2.2.0',
+31 silly addNameRange     '2.2.1',
+31 silly addNameRange     '2.2.2',
+31 silly addNameRange     '2.2.3',
+31 silly addNameRange     '2.2.4',
+31 silly addNameRange     '2.3.0',
+31 silly addNameRange     '2.3.1',
+31 silly addNameRange     '2.3.2',
+31 silly addNameRange     '2.3.3',
+31 silly addNameRange     '2.3.4',
+31 silly addNameRange     '2.3.5',
+31 silly addNameRange     '2.3.6',
+31 silly addNameRange     '2.3.7',
+31 silly addNameRange     '2.3.8',
+31 silly addNameRange     '2.3.9',
+31 silly addNameRange     '2.3.10',
+31 silly addNameRange     '2.3.11',
+31 silly addNameRange     '2.3.12',
+31 silly addNameRange     '2.3.13',
+31 silly addNameRange     '2.4.0',
+31 silly addNameRange     '2.4.1',
+31 silly addNameRange     '2.4.2',
+31 silly addNameRange     '2.4.3',
+31 silly addNameRange     '2.4.4',
+31 silly addNameRange     '2.4.5',
+31 silly addNameRange     '2.4.6',
+31 silly addNameRange     '2.4.7',
+31 silly addNameRange     '2.4.8',
+31 silly addNameRange     '2.4.9',
+31 silly addNameRange     '2.4.10',
+31 silly addNameRange     '2.5.0',
+31 silly addNameRange     '2.5.1',
+31 silly addNameRange     '2.5.2',
+31 silly addNameRange     '2.5.3',
+31 silly addNameRange     '2.5.4',
+31 silly addNameRange     '2.5.5',
+31 silly addNameRange     '2.5.6',
+31 silly addNameRange     '2.5.7',
+31 silly addNameRange     '2.5.8',
+31 silly addNameRange     '2.5.9',
+31 silly addNameRange     '2.5.10',
+31 silly addNameRange     '2.5.11',
+31 silly addNameRange     '2.5.12',
+31 silly addNameRange     '2.5.13',
+31 silly addNameRange     '2.5.14',
+31 silly addNameRange     '2.6.0',
+31 silly addNameRange     '2.6.1',
+31 silly addNameRange     '2.6.2',
+31 silly addNameRange     '2.6.3',
+31 silly addNameRange     '2.6.4',
+31 silly addNameRange     '2.6.5',
+31 silly addNameRange     '2.6.6',
+31 silly addNameRange     '2.6.7',
+31 silly addNameRange     '2.6.8',
+31 silly addNameRange     '2.7.0',
+31 silly addNameRange     '2.7.1',
+31 silly addNameRange     '2.7.2',
+31 silly addNameRange     '2.7.4',
+31 silly addNameRange     '2.7.3',
+31 silly addNameRange     '3.0.0',
+31 silly addNameRange     '3.0.1',
+31 silly addNameRange     '3.0.2',
+31 silly addNameRange     '2.8.0',
+31 silly addNameRange     '3.0.3',
+31 silly addNameRange     '3.1.0',
+31 silly addNameRange     '2.8.1',
+31 silly addNameRange     '3.1.1',
+31 silly addNameRange     '2.8.2',
+31 silly addNameRange     '2.8.3',
+31 silly addNameRange     '2.9.0',
+31 silly addNameRange     '3.2.0',
+31 silly addNameRange     '2.9.1',
+31 silly addNameRange     '3.2.1',
+31 silly addNameRange     '2.9.2',
+31 silly addNameRange     '3.2.2',
+31 silly addNameRange     '3.3.0',
+31 silly addNameRange     '3.3.1',
+31 silly addNameRange     '2.9.3',
+31 silly addNameRange     '3.4.0',
+31 silly addNameRange     '2.9.4',
+31 silly addNameRange     '2.9.5',
+31 silly addNameRange     '3.5.0',
+31 silly addNameRange     '3.5.1',
+31 silly addNameRange     '3.5.2',
+31 silly addNameRange     '3.5.3',
+31 silly addNameRange     '2.9.6',
+31 silly addNameRange     '2.9.7',
+31 silly addNameRange     '3.5.4',
+31 silly addNameRange     '3.5.5',
+31 silly addNameRange     '2.9.8',
+31 silly addNameRange     '2.9.9',
+31 silly addNameRange     '3.5.6',
+31 silly addNameRange     '3.5.7',
+31 silly addNameRange     '3.5.8',
+31 silly addNameRange     '2.9.10',
+31 silly addNameRange     '3.5.9',
+31 silly addNameRange     '3.6.2',
+31 silly addNameRange     '3.5.10',
+31 silly addNameRange     '3.6.3',
+31 silly addNameRange     '3.5.11',
+31 silly addNameRange     '3.6.4',
+31 silly addNameRange     '3.6.5',
+31 silly addNameRange     '3.6.6',
+31 silly addNameRange     '3.6.7',
+31 silly addNameRange     '3.5.12',
+31 silly addNameRange     '3.6.8',
+31 silly addNameRange     '3.6.9',
+31 silly addNameRange     '3.6.10',
+31 silly addNameRange     '3.5.13',
+31 silly addNameRange     '3.5.14',
+31 silly addNameRange     '3.6.11',
+31 silly addNameRange     '3.6.12',
+31 silly addNameRange     '3.6.13',
+31 silly addNameRange     '3.6.14',
+31 silly addNameRange     '3.6.15',
+31 silly addNameRange     '3.5.15',
+31 silly addNameRange     '3.7.0',
+31 silly addNameRange     '3.6.16',
+31 silly addNameRange     '3.5.16',
+31 silly addNameRange     '3.6.17',
+31 silly addNameRange     '3.7.2',
+31 silly addNameRange     '3.0.0-alpha1',
+31 silly addNameRange     '3.0.0-alpha2',
+31 silly addNameRange     '3.0.0-rc0',
+31 silly addNameRange     '3.6.0-rc0',
+31 silly addNameRange     '3.6.0-rc1',
+31 silly addNameRange     '3.6.18',
+31 silly addNameRange     '3.7.3',
+31 silly addNameRange     '3.6.19',
+31 silly addNameRange     '3.6.20',
+31 silly addNameRange     '3.7.4',
+31 silly addNameRange     '3.8.0',
+31 silly addNameRange     '3.8.1',
+31 silly addNameRange     '3.8.2',
+31 silly addNameRange     '3.8.3',
+31 silly addNameRange     '3.8.4',
+31 silly addNameRange     '3.8.5',
+31 silly addNameRange     '3.8.6',
+31 silly addNameRange     '3.8.7',
+31 silly addNameRange     '3.8.8',
+31 silly addNameRange     '3.8.9',
+31 silly addNameRange     '3.8.10',
+31 silly addNameRange     '3.8.11',
+31 silly addNameRange     '3.9.0',
+31 silly addNameRange     '3.8.12',
+31 silly addNameRange     '3.8.13',
+31 silly addNameRange     '3.8.14',
+31 silly addNameRange     '3.8.15',
+31 silly addNameRange     '3.9.1',
+31 silly addNameRange     '3.8.16',
+31 silly addNameRange     '3.9.2',
+31 silly addNameRange     '3.8.17',
+31 silly addNameRange     '3.9.3',
+31 silly addNameRange     '3.8.18',
+31 silly addNameRange     '3.9.4',
+31 silly addNameRange     '3.8.19',
+31 silly addNameRange     '3.9.5',
+31 silly addNameRange     '3.8.20',
+31 silly addNameRange     '3.9.6',
+31 silly addNameRange     '3.8.21',
+31 silly addNameRange     '3.9.7',
+31 silly addNameRange     '3.8.22',
+31 silly addNameRange     '4.0.0-rc0',
+31 silly addNameRange     '4.0.0-rc1',
+31 silly addNameRange     '3.8.23',
+31 silly addNameRange     '4.0.0-rc2',
+31 silly addNameRange     '3.8.24',
+31 silly addNameRange     '4.0.0-rc3',
+31 silly addNameRange     '3.8.25',
+31 silly addNameRange     '4.0.0-rc4',
+31 silly addNameRange     '4.0.0',
+31 silly addNameRange     '4.0.1',
+31 silly addNameRange     '3.8.26',
+31 silly addNameRange     '3.8.27',
+31 silly addNameRange     '4.0.2',
+31 silly addNameRange     '3.8.28',
+31 silly addNameRange     '4.0.3',
+31 silly addNameRange     '3.8.29',
+31 silly addNameRange     '4.0.4',
+31 silly addNameRange     '3.8.30',
+31 silly addNameRange     '4.0.5',
+31 silly addNameRange     '3.8.31',
+31 silly addNameRange     '4.0.6',
+31 silly addNameRange     '3.8.33',
+31 silly addNameRange     '4.0.7',
+31 silly addNameRange     '3.8.34',
+31 silly addNameRange     '4.0.8',
+31 silly addNameRange     '4.1.0',
+31 silly addNameRange     '4.1.1',
+31 silly addNameRange     '4.1.2',
+31 silly addNameRange     '3.8.35',
+31 silly addNameRange     '4.1.3',
+31 silly addNameRange     '4.1.5',
+31 silly addNameRange     '4.1.6',
+31 silly addNameRange     '4.1.7',
+31 silly addNameRange     '4.1.8',
+31 silly addNameRange     '4.1.9',
+31 silly addNameRange     '4.1.10',
+31 silly addNameRange     '4.1.11',
+31 silly addNameRange     '3.8.36',
+31 silly addNameRange     '4.1.12',
+31 silly addNameRange     '4.2.0',
+31 silly addNameRange     '4.2.1',
+31 silly addNameRange     '4.2.2',
+31 silly addNameRange     '4.2.3',
+31 silly addNameRange     '4.2.4',
+31 silly addNameRange     '4.2.5',
+31 silly addNameRange     '3.8.37',
+31 silly addNameRange     '4.2.6',
+31 silly addNameRange     '4.2.7',
+31 silly addNameRange     '4.2.8',
+31 silly addNameRange     '4.2.9',
+31 silly addNameRange     '4.2.10',
+31 silly addNameRange     '4.3.0',
+31 silly addNameRange     '4.3.1',
+31 silly addNameRange     '4.3.2',
+31 silly addNameRange     '4.3.3',
+31 silly addNameRange     '4.3.4' ] ]
+32 verbose addNamed [ 'mongoose', '3.6.20' ]
+33 verbose addNamed [ '3.6.20', '3.6.20' ]
+34 silly lockFile 9e27220e-mongoose-3-6-20 mongoose@3.6.20
+35 verbose lock mongoose@3.6.20 /home/vagrant/.npm/9e27220e-mongoose-3-6-20.lock
+36 silly lockFile 9e27220e-mongoose-3-6-20 mongoose@3.6.20
+37 silly lockFile 9e27220e-mongoose-3-6-20 mongoose@3.6.20
+38 silly lockFile efc1bb8e-mongoose-3-6-x mongoose@3.6.x
+39 silly lockFile efc1bb8e-mongoose-3-6-x mongoose@3.6.x
+40 silly resolved [ { name: 'mongoose',
+40 silly resolved     description: 'Elegant MongoDB object modeling for Node.js',
+40 silly resolved     version: '3.6.20',
+40 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+40 silly resolved     keywords:
+40 silly resolved      [ 'mongodb',
+40 silly resolved        'document',
+40 silly resolved        'model',
+40 silly resolved        'schema',
+40 silly resolved        'database',
+40 silly resolved        'odm',
+40 silly resolved        'data',
+40 silly resolved        'datastore',
+40 silly resolved        'query',
+40 silly resolved        'nosql',
+40 silly resolved        'orm',
+40 silly resolved        'db' ],
+40 silly resolved     dependencies:
+40 silly resolved      { hooks: '0.2.1',
+40 silly resolved        mongodb: '1.3.19',
+40 silly resolved        ms: '0.1.0',
+40 silly resolved        sliced: '0.0.5',
+40 silly resolved        muri: '0.3.1',
+40 silly resolved        mpromise: '0.2.1',
+40 silly resolved        mpath: '0.1.1',
+40 silly resolved        'regexp-clone': '0.0.1' },
+40 silly resolved     devDependencies:
+40 silly resolved      { mocha: '1.12.0',
+40 silly resolved        'node-static': '0.5.9',
+40 silly resolved        dox: '0.3.1',
+40 silly resolved        jade: '0.26.3',
+40 silly resolved        'highlight.js': '7.0.1',
+40 silly resolved        markdown: '0.3.1',
+40 silly resolved        'promises-aplus-tests': '>= 1.0.2',
+40 silly resolved        tbd: '0.6.4',
+40 silly resolved        benchmark: '1.0.0',
+40 silly resolved        open: '0.0.3' },
+40 silly resolved     directories: { lib: './lib/mongoose' },
+40 silly resolved     scripts: { test: 'make test' },
+40 silly resolved     main: './index.js',
+40 silly resolved     engines: { node: '>=0.6.19' },
+40 silly resolved     bugs: { url: 'https://github.com/learnboost/mongoose/issues/new' },
+40 silly resolved     repository: { type: 'git', url: 'git://github.com/LearnBoost/mongoose.git' },
+40 silly resolved     homepage: 'http://mongoosejs.com',
+40 silly resolved     _id: 'mongoose@3.6.20',
+40 silly resolved     dist:
+40 silly resolved      { shasum: '47263843e6b812ea207eec104c40a36c8d215f53',
+40 silly resolved        tarball: 'http://registry.npmjs.org/mongoose/-/mongoose-3.6.20.tgz' },
+40 silly resolved     _from: 'mongoose@3.6.x',
+40 silly resolved     _npmVersion: '1.3.8',
+40 silly resolved     _npmUser: { name: 'aaron', email: 'aaron.heckmann+github@gmail.com' },
+40 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+40 silly resolved     _shasum: '47263843e6b812ea207eec104c40a36c8d215f53',
+40 silly resolved     _resolved: 'https://registry.npmjs.org/mongoose/-/mongoose-3.6.20.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install mongoose@3.6.20 into /home/vagrant/app/Express
+42 info installOne mongoose@3.6.20
+43 info /home/vagrant/app/Express/node_modules/mongoose unbuild
+44 verbose tar unpack /home/vagrant/.npm/mongoose/3.6.20/package.tgz
+45 silly lockFile b65f426e-pp-Express-node-modules-mongoose tar:///home/vagrant/app/Express/node_modules/mongoose
+46 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose /home/vagrant/.npm/b65f426e-pp-Express-node-modules-mongoose.lock
+47 silly lockFile 8f494cb0--npm-mongoose-3-6-20-package-tgz tar:///home/vagrant/.npm/mongoose/3.6.20/package.tgz
+48 verbose lock tar:///home/vagrant/.npm/mongoose/3.6.20/package.tgz /home/vagrant/.npm/8f494cb0--npm-mongoose-3-6-20-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm extractEntry .npmignore
+52 silly gunzTarPerm extractEntry README.md
+53 silly gunzTarPerm extractEntry static.js
+54 silly gunzTarPerm extractEntry index.js
+55 silly gunzTarPerm extractEntry website.js
+56 silly gunzTarPerm extractEntry .travis.yml
+57 silly gunzTarPerm extractEntry lib/collection.js
+58 silly gunzTarPerm extractEntry lib/statemachine.js
+59 silly gunzTarPerm extractEntry lib/index.js
+60 silly gunzTarPerm extractEntry lib/internal.js
+61 silly gunzTarPerm extractEntry lib/error.js
+62 silly gunzTarPerm extractEntry lib/namedscope.js
+63 silly gunzTarPerm extractEntry lib/connection.js
+64 silly gunzTarPerm extractEntry lib/query.js
+65 silly gunzTarPerm extractEntry lib/queryhelpers.js
+66 silly gunzTarPerm extractEntry lib/querystream.js
+67 silly gunzTarPerm extractEntry lib/utils.js
+68 silly gunzTarPerm extractEntry lib/schematype.js
+69 silly gunzTarPerm extractEntry lib/document.js
+70 silly gunzTarPerm extractEntry lib/schema.js
+71 silly gunzTarPerm extractEntry lib/connectionstate.js
+72 silly gunzTarPerm extractEntry lib/schemadefault.js
+73 silly gunzTarPerm extractEntry lib/model.js
+74 silly gunzTarPerm extractEntry lib/virtualtype.js
+75 silly gunzTarPerm extractEntry lib/promise.js
+76 silly gunzTarPerm extractEntry lib/schema/array.js
+77 silly gunzTarPerm extractEntry lib/schema/buffer.js
+78 silly gunzTarPerm extractEntry lib/schema/date.js
+79 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+80 silly gunzTarPerm extractEntry lib/schema/boolean.js
+81 silly gunzTarPerm extractEntry lib/schema/index.js
+82 silly gunzTarPerm extractEntry lib/schema/mixed.js
+83 silly gunzTarPerm extractEntry lib/schema/number.js
+84 silly gunzTarPerm extractEntry lib/schema/objectid.js
+85 silly gunzTarPerm extractEntry lib/schema/string.js
+86 silly gunzTarPerm extractEntry lib/schema/embedded.js
+87 silly gunzTarPerm extractEntry lib/errors/cast.js
+88 silly gunzTarPerm extractEntry lib/errors/divergentArray.js
+89 silly gunzTarPerm extractEntry lib/errors/document.js
+90 silly gunzTarPerm extractEntry lib/errors/missingSchema.js
+91 silly gunzTarPerm extractEntry lib/errors/overwriteModel.js
+92 silly gunzTarPerm extractEntry lib/errors/validation.js
+93 silly gunzTarPerm extractEntry lib/errors/validator.js
+94 silly gunzTarPerm extractEntry lib/errors/version.js
+95 silly gunzTarPerm extractEntry lib/types/array.js
+96 silly gunzTarPerm extractEntry lib/types/buffer.js
+97 silly gunzTarPerm extractEntry lib/types/documentarray.js
+98 silly gunzTarPerm extractEntry lib/types/embedded.js
+99 silly gunzTarPerm extractEntry lib/types/index.js
+100 silly gunzTarPerm extractEntry lib/types/objectid.js
+101 silly gunzTarPerm extractEntry lib/drivers/SPEC.md
+102 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+103 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+104 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+105 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+106 silly gunzTarPerm extractEntry History.md
+107 silly gunzTarPerm extractEntry CONTRIBUTING.md
+108 silly gunzTarPerm extractEntry examples/README.md
+109 silly gunzTarPerm extractEntry examples/doc-methods.js
+110 silly gunzTarPerm extractEntry examples/population-across-three-collections.js
+111 silly gunzTarPerm extractEntry examples/population-basic.js
+112 silly gunzTarPerm extractEntry examples/population-of-existing-doc.js
+113 silly gunzTarPerm extractEntry examples/population-of-multiple-existing-docs.js
+114 silly gunzTarPerm extractEntry examples/population-options.js
+115 silly gunzTarPerm extractEntry examples/population-plain-objects.js
+116 silly gunzTarPerm extractEntry examples/schema.js
+117 silly lockFile b65f426e-pp-Express-node-modules-mongoose tar:///home/vagrant/app/Express/node_modules/mongoose
+118 silly lockFile b65f426e-pp-Express-node-modules-mongoose tar:///home/vagrant/app/Express/node_modules/mongoose
+119 silly lockFile 8f494cb0--npm-mongoose-3-6-20-package-tgz tar:///home/vagrant/.npm/mongoose/3.6.20/package.tgz
+120 silly lockFile 8f494cb0--npm-mongoose-3-6-20-package-tgz tar:///home/vagrant/.npm/mongoose/3.6.20/package.tgz
+121 info preinstall mongoose@3.6.20
+122 verbose readDependencies using package.json deps
+123 verbose readDependencies using package.json deps
+124 verbose cache add [ 'hooks@0.2.1', null ]
+125 verbose cache add name=undefined spec="hooks@0.2.1" args=["hooks@0.2.1",null]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: 'hooks@0.2.1',
+126 verbose parsed url   path: 'hooks@0.2.1',
+126 verbose parsed url   href: 'hooks@0.2.1' }
+127 verbose cache add [ 'mongodb@1.3.19', null ]
+128 verbose cache add name=undefined spec="mongodb@1.3.19" args=["mongodb@1.3.19",null]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: 'mongodb@1.3.19',
+129 verbose parsed url   path: 'mongodb@1.3.19',
+129 verbose parsed url   href: 'mongodb@1.3.19' }
+130 verbose cache add name="hooks" spec="0.2.1" args=["hooks","0.2.1"]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '0.2.1',
+131 verbose parsed url   path: '0.2.1',
+131 verbose parsed url   href: '0.2.1' }
+132 verbose addNamed [ 'hooks', '0.2.1' ]
+133 verbose addNamed [ '0.2.1', '0.2.1' ]
+134 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+135 verbose lock hooks@0.2.1 /home/vagrant/.npm/207ce50b-hooks-0-2-1.lock
+136 verbose cache add [ 'ms@0.1.0', null ]
+137 verbose cache add name=undefined spec="ms@0.1.0" args=["ms@0.1.0",null]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: 'ms@0.1.0',
+138 verbose parsed url   path: 'ms@0.1.0',
+138 verbose parsed url   href: 'ms@0.1.0' }
+139 verbose cache add [ 'sliced@0.0.5', null ]
+140 verbose cache add name=undefined spec="sliced@0.0.5" args=["sliced@0.0.5",null]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: 'sliced@0.0.5',
+141 verbose parsed url   path: 'sliced@0.0.5',
+141 verbose parsed url   href: 'sliced@0.0.5' }
+142 verbose cache add name="mongodb" spec="1.3.19" args=["mongodb","1.3.19"]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: '1.3.19',
+143 verbose parsed url   path: '1.3.19',
+143 verbose parsed url   href: '1.3.19' }
+144 verbose addNamed [ 'mongodb', '1.3.19' ]
+145 verbose addNamed [ '1.3.19', '1.3.19' ]
+146 silly lockFile a5935257-mongodb-1-3-19 mongodb@1.3.19
+147 verbose lock mongodb@1.3.19 /home/vagrant/.npm/a5935257-mongodb-1-3-19.lock
+148 verbose cache add name="ms" spec="0.1.0" args=["ms","0.1.0"]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '0.1.0',
+149 verbose parsed url   path: '0.1.0',
+149 verbose parsed url   href: '0.1.0' }
+150 verbose addNamed [ 'ms', '0.1.0' ]
+151 verbose addNamed [ '0.1.0', '0.1.0' ]
+152 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+153 verbose lock ms@0.1.0 /home/vagrant/.npm/9555626c-ms-0-1-0.lock
+154 verbose cache add [ 'muri@0.3.1', null ]
+155 verbose cache add name=undefined spec="muri@0.3.1" args=["muri@0.3.1",null]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: 'muri@0.3.1',
+156 verbose parsed url   path: 'muri@0.3.1',
+156 verbose parsed url   href: 'muri@0.3.1' }
+157 verbose cache add [ 'mpromise@0.2.1', null ]
+158 verbose cache add name=undefined spec="mpromise@0.2.1" args=["mpromise@0.2.1",null]
+159 verbose parsed url { protocol: null,
+159 verbose parsed url   slashes: null,
+159 verbose parsed url   auth: null,
+159 verbose parsed url   host: null,
+159 verbose parsed url   port: null,
+159 verbose parsed url   hostname: null,
+159 verbose parsed url   hash: null,
+159 verbose parsed url   search: null,
+159 verbose parsed url   query: null,
+159 verbose parsed url   pathname: 'mpromise@0.2.1',
+159 verbose parsed url   path: 'mpromise@0.2.1',
+159 verbose parsed url   href: 'mpromise@0.2.1' }
+160 verbose cache add [ 'mpath@0.1.1', null ]
+161 verbose cache add name=undefined spec="mpath@0.1.1" args=["mpath@0.1.1",null]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: 'mpath@0.1.1',
+162 verbose parsed url   path: 'mpath@0.1.1',
+162 verbose parsed url   href: 'mpath@0.1.1' }
+163 verbose cache add name="sliced" spec="0.0.5" args=["sliced","0.0.5"]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: '0.0.5',
+164 verbose parsed url   path: '0.0.5',
+164 verbose parsed url   href: '0.0.5' }
+165 verbose addNamed [ 'sliced', '0.0.5' ]
+166 verbose addNamed [ '0.0.5', '0.0.5' ]
+167 silly lockFile 146acdb0-sliced-0-0-5 sliced@0.0.5
+168 verbose lock sliced@0.0.5 /home/vagrant/.npm/146acdb0-sliced-0-0-5.lock
+169 verbose cache add name="muri" spec="0.3.1" args=["muri","0.3.1"]
+170 verbose parsed url { protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: '0.3.1',
+170 verbose parsed url   path: '0.3.1',
+170 verbose parsed url   href: '0.3.1' }
+171 verbose addNamed [ 'muri', '0.3.1' ]
+172 verbose addNamed [ '0.3.1', '0.3.1' ]
+173 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+174 verbose lock muri@0.3.1 /home/vagrant/.npm/01b66c9e-muri-0-3-1.lock
+175 verbose cache add name="mpromise" spec="0.2.1" args=["mpromise","0.2.1"]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: '0.2.1',
+176 verbose parsed url   path: '0.2.1',
+176 verbose parsed url   href: '0.2.1' }
+177 verbose addNamed [ 'mpromise', '0.2.1' ]
+178 verbose addNamed [ '0.2.1', '0.2.1' ]
+179 silly lockFile 536efb38-mpromise-0-2-1 mpromise@0.2.1
+180 verbose lock mpromise@0.2.1 /home/vagrant/.npm/536efb38-mpromise-0-2-1.lock
+181 verbose cache add [ 'regexp-clone@0.0.1', null ]
+182 verbose cache add name=undefined spec="regexp-clone@0.0.1" args=["regexp-clone@0.0.1",null]
+183 verbose parsed url { protocol: null,
+183 verbose parsed url   slashes: null,
+183 verbose parsed url   auth: null,
+183 verbose parsed url   host: null,
+183 verbose parsed url   port: null,
+183 verbose parsed url   hostname: null,
+183 verbose parsed url   hash: null,
+183 verbose parsed url   search: null,
+183 verbose parsed url   query: null,
+183 verbose parsed url   pathname: 'regexp-clone@0.0.1',
+183 verbose parsed url   path: 'regexp-clone@0.0.1',
+183 verbose parsed url   href: 'regexp-clone@0.0.1' }
+184 verbose cache add name="mpath" spec="0.1.1" args=["mpath","0.1.1"]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: '0.1.1',
+185 verbose parsed url   path: '0.1.1',
+185 verbose parsed url   href: '0.1.1' }
+186 verbose addNamed [ 'mpath', '0.1.1' ]
+187 verbose addNamed [ '0.1.1', '0.1.1' ]
+188 silly lockFile 7ed304e1-mpath-0-1-1 mpath@0.1.1
+189 verbose lock mpath@0.1.1 /home/vagrant/.npm/7ed304e1-mpath-0-1-1.lock
+190 verbose cache add name="regexp-clone" spec="0.0.1" args=["regexp-clone","0.0.1"]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: '0.0.1',
+191 verbose parsed url   path: '0.0.1',
+191 verbose parsed url   href: '0.0.1' }
+192 verbose addNamed [ 'regexp-clone', '0.0.1' ]
+193 verbose addNamed [ '0.0.1', '0.0.1' ]
+194 silly lockFile c8264751-regexp-clone-0-0-1 regexp-clone@0.0.1
+195 verbose lock regexp-clone@0.0.1 /home/vagrant/.npm/c8264751-regexp-clone-0-0-1.lock
+196 verbose url raw hooks
+197 verbose url resolving [ 'https://registry.npmjs.org/', './hooks' ]
+198 verbose url resolved https://registry.npmjs.org/hooks
+199 info trying registry request attempt 1 at 18:35:04
+200 verbose etag "3IFFH2X8LDIN6R37JY42W0HF9"
+201 http GET https://registry.npmjs.org/hooks
+202 verbose url raw mongodb
+203 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+204 verbose url resolved https://registry.npmjs.org/mongodb
+205 info trying registry request attempt 1 at 18:35:04
+206 verbose etag "A11UIZ6B7A0WPIC7EUE3E0Y2B"
+207 http GET https://registry.npmjs.org/mongodb
+208 verbose url raw ms
+209 verbose url resolving [ 'https://registry.npmjs.org/', './ms' ]
+210 verbose url resolved https://registry.npmjs.org/ms
+211 info trying registry request attempt 1 at 18:35:04
+212 verbose etag "7IH6P23B0A90EXZEWQUHL072B"
+213 http GET https://registry.npmjs.org/ms
+214 verbose url raw sliced
+215 verbose url resolving [ 'https://registry.npmjs.org/', './sliced' ]
+216 verbose url resolved https://registry.npmjs.org/sliced
+217 info trying registry request attempt 1 at 18:35:04
+218 verbose etag "EN5U9Y31DK6WV3FZK1C511NBT"
+219 http GET https://registry.npmjs.org/sliced
+220 verbose url raw muri
+221 verbose url resolving [ 'https://registry.npmjs.org/', './muri' ]
+222 verbose url resolved https://registry.npmjs.org/muri
+223 info trying registry request attempt 1 at 18:35:04
+224 verbose etag "1A8HZR3VWLZ26QA17AQVL78FR"
+225 http GET https://registry.npmjs.org/muri
+226 verbose url raw mpromise
+227 verbose url resolving [ 'https://registry.npmjs.org/', './mpromise' ]
+228 verbose url resolved https://registry.npmjs.org/mpromise
+229 info trying registry request attempt 1 at 18:35:04
+230 verbose etag "ANP2S12BAVZ9XZPOEVBCCO9YG"
+231 http GET https://registry.npmjs.org/mpromise
+232 verbose url raw mpath
+233 verbose url resolving [ 'https://registry.npmjs.org/', './mpath' ]
+234 verbose url resolved https://registry.npmjs.org/mpath
+235 info trying registry request attempt 1 at 18:35:04
+236 verbose etag "DD146YM5VNF79SWUY199CJ9P6"
+237 http GET https://registry.npmjs.org/mpath
+238 verbose url raw regexp-clone
+239 verbose url resolving [ 'https://registry.npmjs.org/', './regexp-clone' ]
+240 verbose url resolved https://registry.npmjs.org/regexp-clone
+241 info trying registry request attempt 1 at 18:35:04
+242 verbose etag "AMGTX5SC3OTT0F8UOW43HZ5FK"
+243 http GET https://registry.npmjs.org/regexp-clone
+244 http 304 https://registry.npmjs.org/sliced
+245 silly registry.get cb [ 304,
+245 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:05 GMT',
+245 silly registry.get     via: '1.1 varnish',
+245 silly registry.get     'cache-control': 'max-age=300',
+245 silly registry.get     etag: '"EN5U9Y31DK6WV3FZK1C511NBT"',
+245 silly registry.get     age: '10',
+245 silly registry.get     connection: 'keep-alive',
+245 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+245 silly registry.get     'x-cache': 'HIT',
+245 silly registry.get     'x-cache-hits': '1',
+245 silly registry.get     'x-timer': 'S1450982105.206158,VS0,VE0',
+245 silly registry.get     vary: 'Accept' } ]
+246 verbose etag sliced from cache
+247 silly lockFile 146acdb0-sliced-0-0-5 sliced@0.0.5
+248 silly lockFile 146acdb0-sliced-0-0-5 sliced@0.0.5
+249 http 304 https://registry.npmjs.org/ms
+250 silly registry.get cb [ 304,
+250 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:05 GMT',
+250 silly registry.get     via: '1.1 varnish',
+250 silly registry.get     'cache-control': 'max-age=300',
+250 silly registry.get     etag: '"7IH6P23B0A90EXZEWQUHL072B"',
+250 silly registry.get     age: '257',
+250 silly registry.get     connection: 'keep-alive',
+250 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+250 silly registry.get     'x-cache': 'HIT',
+250 silly registry.get     'x-cache-hits': '12',
+250 silly registry.get     'x-timer': 'S1450982105.244135,VS0,VE0',
+250 silly registry.get     vary: 'Accept' } ]
+251 verbose etag ms from cache
+252 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+253 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+254 http 304 https://registry.npmjs.org/muri
+255 silly registry.get cb [ 304,
+255 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:05 GMT',
+255 silly registry.get     via: '1.1 varnish',
+255 silly registry.get     'cache-control': 'max-age=300',
+255 silly registry.get     etag: '"1A8HZR3VWLZ26QA17AQVL78FR"',
+255 silly registry.get     age: '200',
+255 silly registry.get     connection: 'keep-alive',
+255 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+255 silly registry.get     'x-cache': 'HIT',
+255 silly registry.get     'x-cache-hits': '89',
+255 silly registry.get     'x-timer': 'S1450982105.340871,VS0,VE0',
+255 silly registry.get     vary: 'Accept' } ]
+256 verbose etag muri from cache
+257 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+258 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+259 http 304 https://registry.npmjs.org/mongodb
+260 silly registry.get cb [ 304,
+260 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:05 GMT',
+260 silly registry.get     via: '1.1 varnish',
+260 silly registry.get     'cache-control': 'max-age=300',
+260 silly registry.get     etag: '"A11UIZ6B7A0WPIC7EUE3E0Y2B"',
+260 silly registry.get     age: '72',
+260 silly registry.get     connection: 'keep-alive',
+260 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+260 silly registry.get     'x-cache': 'HIT',
+260 silly registry.get     'x-cache-hits': '1',
+260 silly registry.get     'x-timer': 'S1450982105.370979,VS0,VE1',
+260 silly registry.get     vary: 'Accept' } ]
+261 verbose etag mongodb from cache
+262 http 304 https://registry.npmjs.org/hooks
+263 silly registry.get cb [ 304,
+263 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:05 GMT',
+263 silly registry.get     via: '1.1 varnish',
+263 silly registry.get     'cache-control': 'max-age=300',
+263 silly registry.get     etag: '"3IFFH2X8LDIN6R37JY42W0HF9"',
+263 silly registry.get     age: '161',
+263 silly registry.get     connection: 'keep-alive',
+263 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+263 silly registry.get     'x-cache': 'HIT',
+263 silly registry.get     'x-cache-hits': '1',
+263 silly registry.get     'x-timer': 'S1450982105.378830,VS0,VE0',
+263 silly registry.get     vary: 'Accept' } ]
+264 verbose etag hooks from cache
+265 http 304 https://registry.npmjs.org/mpromise
+266 silly registry.get cb [ 304,
+266 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:05 GMT',
+266 silly registry.get     via: '1.1 varnish',
+266 silly registry.get     'cache-control': 'max-age=300',
+266 silly registry.get     etag: '"ANP2S12BAVZ9XZPOEVBCCO9YG"',
+266 silly registry.get     age: '200',
+266 silly registry.get     connection: 'keep-alive',
+266 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+266 silly registry.get     'x-cache': 'HIT',
+266 silly registry.get     'x-cache-hits': '2',
+266 silly registry.get     'x-timer': 'S1450982105.399877,VS0,VE0',
+266 silly registry.get     vary: 'Accept' } ]
+267 verbose etag mpromise from cache
+268 silly lockFile a5935257-mongodb-1-3-19 mongodb@1.3.19
+269 silly lockFile a5935257-mongodb-1-3-19 mongodb@1.3.19
+270 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+271 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+272 silly lockFile 536efb38-mpromise-0-2-1 mpromise@0.2.1
+273 silly lockFile 536efb38-mpromise-0-2-1 mpromise@0.2.1
+274 http 304 https://registry.npmjs.org/mpath
+275 silly registry.get cb [ 304,
+275 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:05 GMT',
+275 silly registry.get     via: '1.1 varnish',
+275 silly registry.get     'cache-control': 'max-age=300',
+275 silly registry.get     etag: '"DD146YM5VNF79SWUY199CJ9P6"',
+275 silly registry.get     age: '10',
+275 silly registry.get     connection: 'keep-alive',
+275 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+275 silly registry.get     'x-cache': 'HIT',
+275 silly registry.get     'x-cache-hits': '1',
+275 silly registry.get     'x-timer': 'S1450982105.441238,VS0,VE0',
+275 silly registry.get     vary: 'Accept' } ]
+276 verbose etag mpath from cache
+277 silly lockFile 7ed304e1-mpath-0-1-1 mpath@0.1.1
+278 silly lockFile 7ed304e1-mpath-0-1-1 mpath@0.1.1
+279 http 304 https://registry.npmjs.org/regexp-clone
+280 silly registry.get cb [ 304,
+280 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:05 GMT',
+280 silly registry.get     via: '1.1 varnish',
+280 silly registry.get     'cache-control': 'max-age=300',
+280 silly registry.get     etag: '"AMGTX5SC3OTT0F8UOW43HZ5FK"',
+280 silly registry.get     age: '200',
+280 silly registry.get     connection: 'keep-alive',
+280 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+280 silly registry.get     'x-cache': 'HIT',
+280 silly registry.get     'x-cache-hits': '2',
+280 silly registry.get     'x-timer': 'S1450982105.547402,VS0,VE0',
+280 silly registry.get     vary: 'Accept' } ]
+281 verbose etag regexp-clone from cache
+282 silly lockFile c8264751-regexp-clone-0-0-1 regexp-clone@0.0.1
+283 silly lockFile c8264751-regexp-clone-0-0-1 regexp-clone@0.0.1
+284 silly resolved [ { name: 'sliced',
+284 silly resolved     version: '0.0.5',
+284 silly resolved     description: 'A faster Node.js alternative to Array.prototype.slice.call(arguments)',
+284 silly resolved     main: 'index.js',
+284 silly resolved     scripts: { test: 'make test' },
+284 silly resolved     repository: { type: 'git', url: 'git://github.com/aheckmann/sliced' },
+284 silly resolved     keywords: [ 'arguments', 'slice', 'array' ],
+284 silly resolved     author:
+284 silly resolved      { name: 'Aaron Heckmann',
+284 silly resolved        email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     license: 'MIT',
+284 silly resolved     devDependencies: { mocha: '1.5.0', benchmark: '~1.0.0' },
+284 silly resolved     _id: 'sliced@0.0.5',
+284 silly resolved     dist:
+284 silly resolved      { shasum: '5edc044ca4eb6f7816d50ba2fc63e25d8fe4707f',
+284 silly resolved        tarball: 'http://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz' },
+284 silly resolved     _npmVersion: '1.1.59',
+284 silly resolved     _npmUser: { name: 'aaron', email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     maintainers: [ [Object] ],
+284 silly resolved     directories: {},
+284 silly resolved     _shasum: '5edc044ca4eb6f7816d50ba2fc63e25d8fe4707f',
+284 silly resolved     _from: 'sliced@0.0.5',
+284 silly resolved     _resolved: 'https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz',
+284 silly resolved     bugs: { url: 'https://github.com/aheckmann/sliced/issues' },
+284 silly resolved     readme: 'ERROR: No README data found!',
+284 silly resolved     homepage: 'https://github.com/aheckmann/sliced' },
+284 silly resolved   { name: 'ms',
+284 silly resolved     version: '0.1.0',
+284 silly resolved     description: 'Tiny ms conversion utility',
+284 silly resolved     main: './ms',
+284 silly resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+284 silly resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+284 silly resolved     _id: 'ms@0.1.0',
+284 silly resolved     dependencies: {},
+284 silly resolved     engines: { node: '*' },
+284 silly resolved     _engineSupported: true,
+284 silly resolved     _npmVersion: '1.0.106',
+284 silly resolved     _nodeVersion: 'v0.4.12',
+284 silly resolved     _defaultsLoaded: true,
+284 silly resolved     dist:
+284 silly resolved      { shasum: 'f21fac490daf1d7667fd180fe9077389cc9442b2',
+284 silly resolved        tarball: 'http://registry.npmjs.org/ms/-/ms-0.1.0.tgz' },
+284 silly resolved     maintainers: [ [Object] ],
+284 silly resolved     directories: {},
+284 silly resolved     _shasum: 'f21fac490daf1d7667fd180fe9077389cc9442b2',
+284 silly resolved     _from: 'ms@0.1.0',
+284 silly resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.1.0.tgz',
+284 silly resolved     readme: 'ERROR: No README data found!' },
+284 silly resolved   { name: 'muri',
+284 silly resolved     version: '0.3.1',
+284 silly resolved     description: 'MongoDB URI parser',
+284 silly resolved     main: 'index.js',
+284 silly resolved     scripts: { test: 'make test' },
+284 silly resolved     repository: { type: 'git', url: 'git://github.com/aheckmann/muri.git' },
+284 silly resolved     keywords: [ 'mongodb', 'uri', 'parser' ],
+284 silly resolved     author:
+284 silly resolved      { name: 'Aaron Heckmann',
+284 silly resolved        email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     license: 'MIT',
+284 silly resolved     devDependencies: { mocha: '1.6.0' },
+284 silly resolved     _id: 'muri@0.3.1',
+284 silly resolved     dist:
+284 silly resolved      { shasum: '861889c5c857f1a43700bee85d50731f61727c9a',
+284 silly resolved        tarball: 'http://registry.npmjs.org/muri/-/muri-0.3.1.tgz' },
+284 silly resolved     _from: 'muri@0.3.1',
+284 silly resolved     _npmVersion: '1.2.10',
+284 silly resolved     _npmUser: { name: 'aaron', email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     maintainers: [ [Object] ],
+284 silly resolved     directories: {},
+284 silly resolved     _shasum: '861889c5c857f1a43700bee85d50731f61727c9a',
+284 silly resolved     _resolved: 'https://registry.npmjs.org/muri/-/muri-0.3.1.tgz',
+284 silly resolved     bugs: { url: 'https://github.com/aheckmann/muri/issues' },
+284 silly resolved     readme: 'ERROR: No README data found!',
+284 silly resolved     homepage: 'https://github.com/aheckmann/muri' },
+284 silly resolved   { name: 'mongodb',
+284 silly resolved     description: 'A node.js driver for MongoDB',
+284 silly resolved     keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+284 silly resolved     version: '1.3.19',
+284 silly resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+284 silly resolved     contributors:
+284 silly resolved      [ [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object],
+284 silly resolved        [Object] ],
+284 silly resolved     repository:
+284 silly resolved      { type: 'git',
+284 silly resolved        url: 'http://github.com/mongodb/node-mongodb-native.git' },
+284 silly resolved     bugs: { url: 'http://github.com/mongodb/node-mongodb-native/issues' },
+284 silly resolved     dependencies: { bson: '0.2.2', kerberos: '0.0.3' },
+284 silly resolved     devDependencies:
+284 silly resolved      { dox: '0.2.0',
+284 silly resolved        'uglify-js': '1.2.5',
+284 silly resolved        ejs: '0.6.1',
+284 silly resolved        request: '2.12.0',
+284 silly resolved        nodeunit: '0.7.4',
+284 silly resolved        markdown: '0.3.1',
+284 silly resolved        gleak: '0.2.3',
+284 silly resolved        step: '0.0.5',
+284 silly resolved        async: '0.1.22',
+284 silly resolved        integra: 'latest',
+284 silly resolved        optimist: 'latest' },
+284 silly resolved     optionalDependencies: { kerberos: '0.0.3' },
+284 silly resolved     config: { native: false },
+284 silly resolved     main: './lib/mongodb/index',
+284 silly resolved     homepage: 'http://mongodb.github.com/node-mongodb-native/',
+284 silly resolved     directories: { lib: './lib/mongodb' },
+284 silly resolved     engines: { node: '>=0.6.19' },
+284 silly resolved     scripts: { test: 'make test_functional' },
+284 silly resolved     licenses: [ [Object] ],
+284 silly resolved     _id: 'mongodb@1.3.19',
+284 silly resolved     dist:
+284 silly resolved      { shasum: 'f229db24098f019d86d135aaf8a1ab5f2658b1d4',
+284 silly resolved        tarball: 'http://registry.npmjs.org/mongodb/-/mongodb-1.3.19.tgz' },
+284 silly resolved     _from: 'mongodb@1.3.19',
+284 silly resolved     _npmVersion: '1.3.5',
+284 silly resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+284 silly resolved     maintainers: [ [Object] ],
+284 silly resolved     _shasum: 'f229db24098f019d86d135aaf8a1ab5f2658b1d4',
+284 silly resolved     _resolved: 'https://registry.npmjs.org/mongodb/-/mongodb-1.3.19.tgz',
+284 silly resolved     readme: 'ERROR: No README data found!' },
+284 silly resolved   { name: 'hooks',
+284 silly resolved     description: 'Adds pre and post hook functionality to your JavaScript methods.',
+284 silly resolved     version: '0.2.1',
+284 silly resolved     keywords: [ 'node', 'hooks', 'middleware', 'pre', 'post' ],
+284 silly resolved     homepage: 'https://github.com/bnoguchi/hooks-js/',
+284 silly resolved     repository: { type: 'git', url: 'git://github.com/bnoguchi/hooks-js.git' },
+284 silly resolved     author:
+284 silly resolved      { name: 'Brian Noguchi',
+284 silly resolved        email: 'brian.noguchi@gmail.com',
+284 silly resolved        url: 'https://github.com/bnoguchi/' },
+284 silly resolved     main: './hooks.js',
+284 silly resolved     directories: { lib: '.' },
+284 silly resolved     scripts: { test: 'make test' },
+284 silly resolved     dependencies: {},
+284 silly resolved     devDependencies: { expresso: '>=0.7.6', should: '>=0.2.1', underscore: '>=1.1.4' },
+284 silly resolved     engines: { node: '>=0.4.0' },
+284 silly resolved     licenses: [ 'MIT' ],
+284 silly resolved     optionalDependencies: {},
+284 silly resolved     _npmUser: { name: 'bnoguchi', email: 'brian.noguchi@gmail.com' },
+284 silly resolved     _id: 'hooks@0.2.1',
+284 silly resolved     _engineSupported: true,
+284 silly resolved     _npmVersion: '1.1.16',
+284 silly resolved     _nodeVersion: 'v0.6.15',
+284 silly resolved     _defaultsLoaded: true,
+284 silly resolved     dist:
+284 silly resolved      { shasum: '0f591b1b344bdcb3df59773f62fbbaf85bf4028b',
+284 silly resolved        tarball: 'http://registry.npmjs.org/hooks/-/hooks-0.2.1.tgz' },
+284 silly resolved     readme: 'hooks\n============\n\nAdd pre and post middleware hooks to your JavaScript methods.\n\n## Installation\n    npm install hooks\n\n## Motivation\nSuppose you have a JavaScript object with a `save` method.\n\nIt would be nice to be able to declare code that runs before `save` and after `save`.\nFor example, you might want to run validation code before every `save`,\nand you might want to dispatch a job to a background job queue after `save`.\n\nOne might have an urge to hard code this all into `save`, but that turns out to\ncouple all these pieces of functionality (validation, save, and job creation) more\ntightly than is necessary. For example, what if someone does not want to do background\njob creation after the logical save? \n\nIt is nicer to tack on functionality using what we call `pre` and `post` hooks. These\nare functions that you define and that you direct to execute before or after particular\nmethods.\n\n## Example\nWe can use `hooks` to add validation and background jobs in the following way:\n\n    var hooks = require(\'hooks\')\n      , Document = require(\'./path/to/some/document/constructor\');\n\n    // Add hooks\' methods: `hook`, `pre`, and `post`    \n    for (var k in hooks) {\n      Document[k] = hooks[k];\n    }\n\n    // Define a new method that is able to invoke pre and post middleware\n    Document.hook(\'save\', Document.prototype.save);\n\n    // Define a middleware function to be invoked before \'save\'\n    Document.pre(\'save\', function validate (next) {\n      // The `this` context inside of `pre` and `post` functions\n      // is the Document instance\n      if (this.isValid()) next();      // next() passes control to the next middleware\n                                       // or to the target method itself\n      else next(new Error("Invalid")); // next(error) invokes an error callback\n    });\n\n    // Define a middleware function to be invoked after \'save\'\n    Document.post(\'save\', function createJob () {\n      this.sendToBackgroundQueue();\n    });\n\nIf you already have defined `Document.prototype` methods for which you want pres and posts,\nthen you do not need to explicitly invoke `Document.hook(...)`. Invoking `Document.pre(methodName, fn)`\nor `Document.post(methodName, fn)` will automatically and lazily change `Document.prototype[methodName]`\nso that it plays well with `hooks`. An equivalent way to implement the previous example is:\n\n```javascript\nvar hooks = require(\'hooks\')\n  , Document = require(\'./path/to/some/document/constructor\');\n\n// Add hooks\' methods: `hook`, `pre`, and `post`    \nfor (var k in hooks) {\n  Document[k] = hooks[k];\n}\n\nDocument.prototype.save = function () {\n  // ...\n};\n\n// Define a middleware function to be invoked before \'save\'\nDocument.pre(\'save\', function validate (next) {\n  // The `this` context inside of `pre` and `post` functions\n  // is the Document instance\n  if (this.isValid()) next();      // next() passes control to the next middleware\n                                   // or to the target method itself\n  else next(new Error("Invalid")); // next(error) invokes an error callback\n});\n\n// Define a middleware function to be invoked after \'save\'\nDocument.post(\'save\', function createJob () {\n  this.sendToBackgroundQueue();\n});\n```\n\n## Pres and Posts as Middleware\nWe structure pres and posts as middleware to give you maximum flexibility:\n\n1. You can define **multiple** pres (or posts) for a single method.\n2. These pres (or posts) are then executed as a chain of methods.\n3. Any functions in this middleware chain can choose to halt the chain\'s execution by `next`ing an Error from that middleware function. If this occurs, then none of the other middleware in the chain will execute, and the main method (e.g., `save`) will not execute. This is nice, for example, when we don\'t want a document to save if it is invalid.\n\n## Defining multiple pres (or posts)\n`pre` is chainable, so you can define multiple pres via:\n    Document.pre(\'save\', function (next, halt) {\n      console.log("hello");\n    }).pre(\'save\', function (next, halt) {\n      console.log("world");\n    });\n\nAs soon as one pre finishes executing, the next one will be invoked, and so on.\n\n## Error Handling\nYou can define a default error handler by passing a 2nd function as the 3rd argument to `hook`:\n    Document.hook(\'set\', function (path, val) {\n      this[path] = val;\n    }, function (err) {\n      // Handler the error here\n      console.error(err);\n    });\n\nThen, we can pass errors to this handler from a pre or post middleware function:\n    Document.pre(\'set\', function (next, path, val) {\n      next(new Error());\n    });\n\nIf you do not set up a default handler, then `hooks` makes the default handler that just throws the `Error`.\n\nThe default error handler can be over-rided on a per method invocation basis.\n\nIf the main method that you are surrounding with pre and post middleware expects its last argument to be a function\nwith callback signature `function (error, ...)`, then that callback becomes the error handler, over-riding the default\nerror handler you may have set up.\n   \n```javascript\nDocument.hook(\'save\', function (callback) {\n  // Save logic goes here\n  ...\n});\n\nvar doc = new Document();\ndoc.save( function (err, saved) {\n  // We can pass err via `next` in any of our pre or post middleware functions\n  if (err) console.error(err);\n  \n  // Rest of callback logic follows ...\n});\n```\n\n## Mutating Arguments via Middleware\n`pre` and `post` middleware can also accept the intended arguments for the method\nthey augment. This is useful if you want to mutate the arguments before passing\nthem along to the next middleware and eventually pass a mutated arguments list to\nthe main method itself.\n\nAs a simple example, let\'s define a method `set` that just sets a key, value pair.\nIf we want to namespace the key, we can do so by adding a `pre` middleware hook\nthat runs before `set`, alters the arguments by namespacing the `key` argument, and passes them onto `set`:\n\n    Document.hook(\'set\', function (key, val) {\n      this[key] = val;\n    });\n    Document.pre(\'set\', function (next, key, val) {\n      next(\'namespace-\' + key, val);\n    });\n    var doc = new Document();\n    doc.set(\'hello\', \'world\');\n    console.log(doc.hello); // undefined\n    console.log(doc[\'namespace-hello\']); // \'world\'\n\nAs you can see above, we pass arguments via `next`.\n\nIf you are not mutating the arguments, then you can pass zero arguments\nto `next`, and the next middleware function will still have access\nto the arguments.\n\n    Document.hook(\'set\', function (key, val) {\n      this[key] = val;\n    });\n    Document.pre(\'set\', function (next, key, val) {\n      // I have access to key and val here\n      next(); // We don\'t need to pass anything to next\n    });\n    Document.pre(\'set\', function (next, key, val) {\n      // And I still have access to the original key and val here\n      next();\n    });\n\nFinally, you can add arguments that downstream middleware can also see:\n\n    // Note that in the definition of `set`, there is no 3rd argument, options\n    Document.hook(\'set\', function (key, val) {\n      // But...\n      var options = arguments[2]; // ...I have access to an options argument\n                                  // because of pre function pre2 (defined below)\n      console.log(options); // \'{debug: true}\'\n      this[key] = val;\n    });\n    Document.pre(\'set\', function pre1 (next, key, val) {\n      // I only have access to key and val arguments\n      console.log(arguments.length); // 3\n      next(key, val, {debug: true});\n    });\n    Document.pre(\'set\', function pre2 (next, key, val, options) {\n      console.log(arguments.length); // 4\n      console.log(options); // \'{ debug: true}\'\n      next();\n    });\n    Document.pre(\'set\', function pre3 (next, key, val, options) {\n      // I still have access to key, val, AND the options argument introduced via the preceding middleware\n      console.log(arguments.length); // 4\n      console.log(options); // \'{ debug: true}\'\n      next();\n    });\n    \n    var doc = new Document()\n    doc.set(\'hey\', \'there\');\n\n## Parallel `pre` middleware\n\nAll middleware up to this point has been "serial" middleware -- i.e., middleware whose logic\nis executed as a serial chain.\n\nSome scenarios call for parallel middleware -- i.e., middleware that can wait for several\nasynchronous services at once to respond.\n\nFor instance, you may only want to save a Document only after you have checked\nthat the Document is valid according to two different remote services.\n\nWe accomplish asynchronous middleware by adding a second kind of flow control callback\n(the only flow control callback so far has been `next`), called `done`.\n\n- `next` passes control to the next middleware in the chain\n- `done` keeps track of how many parallel middleware have invoked `done` and passes\n   control to the target method when ALL parallel middleware have invoked `done`. If\n   you pass an `Error` to `done`, then the error is handled, and the main method that is\n   wrapped by pres and posts will not get invoked.\n\nWe declare pre middleware that is parallel by passing a 3rd boolean argument to our `pre`\ndefinition method.\n\nWe illustrate via the parallel validation example mentioned above:\n\n    Document.hook(\'save\', function targetFn (callback) {\n      // Save logic goes here\n      // ...\n      // This only gets run once the two `done`s are both invoked via preOne and preTwo.\n    });\n\n                         // true marks this as parallel middleware\n    Document.pre(\'save\', true, function preOne (next, doneOne, callback) {\n      remoteServiceOne.validate(this.serialize(), function (err, isValid) {\n        // The code in here will probably be run after the `next` below this block\n        // and could possibly be run after the console.log("Hola") in `preTwo\n        if (err) return doneOne(err);\n        if (isValid) doneOne();\n      });\n      next(); // Pass control to the next middleware\n    });\n    \n    // We will suppose that we need 2 different remote services to validate our document\n    Document.pre(\'save\', true, function preTwo (next, doneTwo, callback) {\n      remoteServiceTwo.validate(this.serialize(), function (err, isValid) {\n        if (err) return doneTwo(err);\n        if (isValid) doneTwo();\n      });\n      next();\n    });\n    \n    // While preOne and preTwo are parallel, preThree is a serial pre middleware\n    Document.pre(\'save\', function preThree (next, callback) {\n      next();\n    });\n    \n    var doc = new Document();\n    doc.save( function (err, doc) {\n      // Do stuff with the saved doc here...\n    });\n\nIn the above example, flow control may happen in the following way:\n\n(1) doc.save -> (2) preOne --(next)--> (3) preTwo --(next)--> (4) preThree --(next)--> (wait for dones to invoke) -> (5) doneTwo -> (6) doneOne -> (7) targetFn\n\nSo what\'s happening is that:\n\n1. You call `doc.save(...)`\n2. First, your preOne middleware gets executed. It makes a remote call to the validation service and `next()`s to the preTwo middleware.\n3. Now, your preTwo middleware gets executed. It makes a remote call to another validation service and `next()`s to the preThree middleware.\n4. Your preThree middleware gets executed. It immediately `next()`s. But nothing else gets executing until both `doneOne` and `doneTwo` are invoked inside the callbacks handling the response from the two valiation services.\n5. We will suppose that validation remoteServiceTwo returns a response to us first. In this case, we call `doneTwo` inside the callback to remoteServiceTwo.\n6. Some fractions of a second later, remoteServiceOne returns a response to us. In this case, we call `doneOne` inside the callback to remoteServiceOne.\n7. `hooks` implementation keeps track of how many parallel middleware has been defined per target function. It detects that both asynchronous pre middlewares (`preOne` and `preTwo`) have finally called their `done` functions (`doneOne` and `doneTwo`), so the implementation finally invokes our `targetFn` (i.e., our core `save` business logic).\n\n## Removing Pres\n\nYou can remove a particular pre associated with a hook:\n\n    Document.pre(\'set\', someFn);\n    Document.removePre(\'set\', someFn);\n\nAnd you can also remove all pres associated with a hook:\n    Document.removePre(\'set\'); // Removes all declared `pre`s on the hook \'set\'\n\n## Tests\nTo run the tests:\n    make test\n\n### Contributors\n- [Brian Noguchi](https://github.com/bnoguchi)\n\n### License\nMIT License\n\n---\n### Author\nBrian Noguchi\n',
+284 silly resolved     maintainers: [ [Object] ],
+284 silly resolved     _shasum: '0f591b1b344bdcb3df59773f62fbbaf85bf4028b',
+284 silly resolved     _from: 'hooks@0.2.1',
+284 silly resolved     _resolved: 'https://registry.npmjs.org/hooks/-/hooks-0.2.1.tgz',
+284 silly resolved     bugs: { url: 'https://github.com/bnoguchi/hooks-js/issues' } },
+284 silly resolved   { name: 'mpromise',
+284 silly resolved     version: '0.2.1',
+284 silly resolved     description: 'Promises A+ conformant implementation',
+284 silly resolved     main: 'index.js',
+284 silly resolved     scripts: { test: 'make test' },
+284 silly resolved     dependencies: { sliced: '0.0.4' },
+284 silly resolved     devDependencies: { mocha: '1.7.4', 'promises-aplus-tests': '>= 1.2' },
+284 silly resolved     repository: { type: 'git', url: 'git://github.com/aheckmann/mpromise' },
+284 silly resolved     keywords: [ 'promise', 'mongoose', 'aplus', 'a+', 'plus' ],
+284 silly resolved     author:
+284 silly resolved      { name: 'Aaron Heckmann',
+284 silly resolved        email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     license: 'MIT',
+284 silly resolved     _id: 'mpromise@0.2.1',
+284 silly resolved     dist:
+284 silly resolved      { shasum: 'fbbdc28cb0207e49b8a4eb1a4c0cea6c2de794c8',
+284 silly resolved        tarball: 'http://registry.npmjs.org/mpromise/-/mpromise-0.2.1.tgz' },
+284 silly resolved     _npmVersion: '1.1.59',
+284 silly resolved     _npmUser: { name: 'aaron', email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     maintainers: [ [Object] ],
+284 silly resolved     directories: {},
+284 silly resolved     _shasum: 'fbbdc28cb0207e49b8a4eb1a4c0cea6c2de794c8',
+284 silly resolved     _from: 'mpromise@0.2.1',
+284 silly resolved     _resolved: 'https://registry.npmjs.org/mpromise/-/mpromise-0.2.1.tgz',
+284 silly resolved     bugs: { url: 'https://github.com/aheckmann/mpromise/issues' },
+284 silly resolved     readme: 'ERROR: No README data found!',
+284 silly resolved     homepage: 'https://github.com/aheckmann/mpromise' },
+284 silly resolved   { name: 'mpath',
+284 silly resolved     version: '0.1.1',
+284 silly resolved     description: '{G,S}et object values using MongoDB path notation',
+284 silly resolved     main: 'index.js',
+284 silly resolved     scripts: { test: 'make test' },
+284 silly resolved     repository: { type: 'git', url: 'git://github.com/aheckmann/mpath.git' },
+284 silly resolved     keywords: [ 'mongodb', 'path', 'get', 'set' ],
+284 silly resolved     author:
+284 silly resolved      { name: 'Aaron Heckmann',
+284 silly resolved        email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     license: 'MIT',
+284 silly resolved     devDependencies: { mocha: '1.6.0' },
+284 silly resolved     _id: 'mpath@0.1.1',
+284 silly resolved     dist:
+284 silly resolved      { shasum: '23da852b7c232ee097f4759d29c0ee9cd22d5e46',
+284 silly resolved        tarball: 'http://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz' },
+284 silly resolved     _npmVersion: '1.1.59',
+284 silly resolved     _npmUser: { name: 'aaron', email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     maintainers: [ [Object] ],
+284 silly resolved     directories: {},
+284 silly resolved     _shasum: '23da852b7c232ee097f4759d29c0ee9cd22d5e46',
+284 silly resolved     _from: 'mpath@0.1.1',
+284 silly resolved     _resolved: 'https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz',
+284 silly resolved     bugs: { url: 'https://github.com/aheckmann/mpath/issues' },
+284 silly resolved     readme: 'ERROR: No README data found!',
+284 silly resolved     homepage: 'https://github.com/aheckmann/mpath' },
+284 silly resolved   { name: 'regexp-clone',
+284 silly resolved     version: '0.0.1',
+284 silly resolved     description: 'Clone RegExps with options',
+284 silly resolved     main: 'index.js',
+284 silly resolved     scripts: { test: 'make test' },
+284 silly resolved     repository:
+284 silly resolved      { type: 'git',
+284 silly resolved        url: 'git://github.com/aheckmann/regexp-clone.git' },
+284 silly resolved     keywords: [ 'RegExp', 'clone' ],
+284 silly resolved     author:
+284 silly resolved      { name: 'Aaron Heckmann',
+284 silly resolved        email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     license: 'MIT',
+284 silly resolved     devDependencies: { mocha: '1.8.1' },
+284 silly resolved     readme: '#regexp-clone\n==============\n\nClones RegExps with flag preservation\n\n```js\nvar regexpClone = require(\'regexp-clone\');\n\nvar a = /somethin/g;\nconsole.log(a.global); // true\n\nvar b = regexpClone(a);\nconsole.log(b.global); // true\n```\n\n## License\n\n[MIT](https://github.com/aheckmann/regexp-clone/blob/master/LICENSE)\n',
+284 silly resolved     readmeFilename: 'README.md',
+284 silly resolved     _id: 'regexp-clone@0.0.1',
+284 silly resolved     dist:
+284 silly resolved      { shasum: 'a7c2e09891fdbf38fbb10d376fb73003e68ac589',
+284 silly resolved        tarball: 'http://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz' },
+284 silly resolved     _from: 'regexp-clone@0.0.1',
+284 silly resolved     _npmVersion: '1.2.14',
+284 silly resolved     _npmUser: { name: 'aaron', email: 'aaron.heckmann+github@gmail.com' },
+284 silly resolved     maintainers: [ [Object] ],
+284 silly resolved     directories: {},
+284 silly resolved     _shasum: 'a7c2e09891fdbf38fbb10d376fb73003e68ac589',
+284 silly resolved     _resolved: 'https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz',
+284 silly resolved     bugs: { url: 'https://github.com/aheckmann/regexp-clone/issues' },
+284 silly resolved     homepage: 'https://github.com/aheckmann/regexp-clone' } ]
+285 info install sliced@0.0.5 into /home/vagrant/app/Express/node_modules/mongoose
+286 info install ms@0.1.0 into /home/vagrant/app/Express/node_modules/mongoose
+287 info install muri@0.3.1 into /home/vagrant/app/Express/node_modules/mongoose
+288 info install mongodb@1.3.19 into /home/vagrant/app/Express/node_modules/mongoose
+289 info install hooks@0.2.1 into /home/vagrant/app/Express/node_modules/mongoose
+290 info install mpromise@0.2.1 into /home/vagrant/app/Express/node_modules/mongoose
+291 info install mpath@0.1.1 into /home/vagrant/app/Express/node_modules/mongoose
+292 info install regexp-clone@0.0.1 into /home/vagrant/app/Express/node_modules/mongoose
+293 info installOne sliced@0.0.5
+294 info installOne ms@0.1.0
+295 info installOne muri@0.3.1
+296 info installOne mongodb@1.3.19
+297 info installOne hooks@0.2.1
+298 info installOne mpromise@0.2.1
+299 info installOne mpath@0.1.1
+300 info installOne regexp-clone@0.0.1
+301 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/sliced unbuild
+302 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/ms unbuild
+303 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/muri unbuild
+304 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb unbuild
+305 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/hooks unbuild
+306 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise unbuild
+307 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpath unbuild
+308 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/regexp-clone unbuild
+309 verbose tar unpack /home/vagrant/.npm/sliced/0.0.5/package.tgz
+310 silly lockFile 6b82940a-les-mongoose-node-modules-sliced tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/sliced
+311 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/sliced /home/vagrant/.npm/6b82940a-les-mongoose-node-modules-sliced.lock
+312 silly lockFile 97fc4225-ant-npm-sliced-0-0-5-package-tgz tar:///home/vagrant/.npm/sliced/0.0.5/package.tgz
+313 verbose lock tar:///home/vagrant/.npm/sliced/0.0.5/package.tgz /home/vagrant/.npm/97fc4225-ant-npm-sliced-0-0-5-package-tgz.lock
+314 verbose tar unpack /home/vagrant/.npm/ms/0.1.0/package.tgz
+315 silly lockFile d2ec0185-modules-mongoose-node-modules-ms tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/ms
+316 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/ms /home/vagrant/.npm/d2ec0185-modules-mongoose-node-modules-ms.lock
+317 silly lockFile 84f319b8-vagrant-npm-ms-0-1-0-package-tgz tar:///home/vagrant/.npm/ms/0.1.0/package.tgz
+318 verbose lock tar:///home/vagrant/.npm/ms/0.1.0/package.tgz /home/vagrant/.npm/84f319b8-vagrant-npm-ms-0-1-0-package-tgz.lock
+319 verbose tar unpack /home/vagrant/.npm/muri/0.3.1/package.tgz
+320 silly lockFile bf081412-dules-mongoose-node-modules-muri tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/muri
+321 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/muri /home/vagrant/.npm/bf081412-dules-mongoose-node-modules-muri.lock
+322 silly lockFile ad676955-grant-npm-muri-0-3-1-package-tgz tar:///home/vagrant/.npm/muri/0.3.1/package.tgz
+323 verbose lock tar:///home/vagrant/.npm/muri/0.3.1/package.tgz /home/vagrant/.npm/ad676955-grant-npm-muri-0-3-1-package-tgz.lock
+324 verbose tar unpack /home/vagrant/.npm/mongodb/1.3.19/package.tgz
+325 silly lockFile 99e1ec61-es-mongoose-node-modules-mongodb tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb
+326 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb /home/vagrant/.npm/99e1ec61-es-mongoose-node-modules-mongodb.lock
+327 silly lockFile 4d2a1bfc-t-npm-mongodb-1-3-19-package-tgz tar:///home/vagrant/.npm/mongodb/1.3.19/package.tgz
+328 verbose lock tar:///home/vagrant/.npm/mongodb/1.3.19/package.tgz /home/vagrant/.npm/4d2a1bfc-t-npm-mongodb-1-3-19-package-tgz.lock
+329 verbose tar unpack /home/vagrant/.npm/hooks/0.2.1/package.tgz
+330 silly lockFile 9e13acde-ules-mongoose-node-modules-hooks tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/hooks
+331 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/hooks /home/vagrant/.npm/9e13acde-ules-mongoose-node-modules-hooks.lock
+332 silly lockFile 9a82df86-rant-npm-hooks-0-2-1-package-tgz tar:///home/vagrant/.npm/hooks/0.2.1/package.tgz
+333 verbose lock tar:///home/vagrant/.npm/hooks/0.2.1/package.tgz /home/vagrant/.npm/9a82df86-rant-npm-hooks-0-2-1-package-tgz.lock
+334 verbose tar unpack /home/vagrant/.npm/mpromise/0.2.1/package.tgz
+335 silly lockFile 2d99bd97-s-mongoose-node-modules-mpromise tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise
+336 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise /home/vagrant/.npm/2d99bd97-s-mongoose-node-modules-mpromise.lock
+337 silly lockFile b87efe41-t-npm-mpromise-0-2-1-package-tgz tar:///home/vagrant/.npm/mpromise/0.2.1/package.tgz
+338 verbose lock tar:///home/vagrant/.npm/mpromise/0.2.1/package.tgz /home/vagrant/.npm/b87efe41-t-npm-mpromise-0-2-1-package-tgz.lock
+339 verbose tar unpack /home/vagrant/.npm/mpath/0.1.1/package.tgz
+340 silly lockFile 6fec9b14-ules-mongoose-node-modules-mpath tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpath
+341 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpath /home/vagrant/.npm/6fec9b14-ules-mongoose-node-modules-mpath.lock
+342 silly lockFile 2bfeb852-rant-npm-mpath-0-1-1-package-tgz tar:///home/vagrant/.npm/mpath/0.1.1/package.tgz
+343 verbose lock tar:///home/vagrant/.npm/mpath/0.1.1/package.tgz /home/vagrant/.npm/2bfeb852-rant-npm-mpath-0-1-1-package-tgz.lock
+344 verbose tar unpack /home/vagrant/.npm/regexp-clone/0.0.1/package.tgz
+345 silly lockFile 993b0671-ngoose-node-modules-regexp-clone tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/regexp-clone
+346 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/regexp-clone /home/vagrant/.npm/993b0671-ngoose-node-modules-regexp-clone.lock
+347 silly lockFile dd8cdef7-m-regexp-clone-0-0-1-package-tgz tar:///home/vagrant/.npm/regexp-clone/0.0.1/package.tgz
+348 verbose lock tar:///home/vagrant/.npm/regexp-clone/0.0.1/package.tgz /home/vagrant/.npm/dd8cdef7-m-regexp-clone-0-0-1-package-tgz.lock
+349 silly gunzTarPerm modes [ '755', '644' ]
+350 silly gunzTarPerm modes [ '755', '644' ]
+351 silly gunzTarPerm modes [ '755', '644' ]
+352 silly gunzTarPerm modes [ '755', '644' ]
+353 silly gunzTarPerm modes [ '755', '644' ]
+354 silly gunzTarPerm modes [ '755', '644' ]
+355 silly gunzTarPerm modes [ '755', '644' ]
+356 silly gunzTarPerm modes [ '755', '644' ]
+357 silly gunzTarPerm extractEntry package.json
+358 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+359 silly gunzTarPerm extractEntry package.json
+360 silly gunzTarPerm extractEntry .gitignore
+361 silly gunzTarPerm extractEntry package.json
+362 silly gunzTarPerm extractEntry package.json
+363 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+364 silly gunzTarPerm extractEntry package.json
+365 silly gunzTarPerm extractEntry package.json
+366 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+367 silly gunzTarPerm extractEntry package.json
+368 silly gunzTarPerm extractEntry .npmignore
+369 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+370 silly gunzTarPerm extractEntry README.md
+371 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+372 silly gunzTarPerm extractEntry .npmignore
+373 silly gunzTarPerm extractEntry README.md
+374 silly gunzTarPerm extractEntry Makefile
+375 silly gunzTarPerm extractEntry ms.js
+376 silly gunzTarPerm extractEntry .npmignore
+377 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+378 silly gunzTarPerm extractEntry README.md
+379 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+380 silly gunzTarPerm extractEntry .npmignore
+381 silly gunzTarPerm extractEntry README.md
+382 silly gunzTarPerm extractEntry LICENSE
+383 silly gunzTarPerm extractEntry index.js
+384 silly gunzTarPerm extractEntry .npmignore
+385 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+386 silly gunzTarPerm extractEntry README.md
+387 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+388 silly gunzTarPerm extractEntry .npmignore
+389 silly gunzTarPerm extractEntry README.md
+390 silly gunzTarPerm extractEntry LICENSE
+391 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+392 silly gunzTarPerm extractEntry bench.js
+393 silly gunzTarPerm modified mode [ 'bench.js', 438, 420 ]
+394 silly gunzTarPerm extractEntry package.json
+395 silly gunzTarPerm extractEntry README.md
+396 silly gunzTarPerm extractEntry LICENSE
+397 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+398 silly gunzTarPerm extractEntry index.js
+399 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+400 silly gunzTarPerm extractEntry LICENSE
+401 silly gunzTarPerm extractEntry index.js
+402 silly gunzTarPerm extractEntry LICENSE
+403 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+404 silly gunzTarPerm extractEntry index.js
+405 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+406 silly gunzTarPerm extractEntry hooks.alt.js
+407 silly gunzTarPerm extractEntry hooks.js
+408 silly gunzTarPerm extractEntry test.js
+409 silly gunzTarPerm extractEntry Makefile
+410 silly gunzTarPerm extractEntry LICENSE
+411 silly gunzTarPerm extractEntry index.js
+412 silly gunzTarPerm extractEntry t.js
+413 silly gunzTarPerm extractEntry .travis.yml
+414 silly gunzTarPerm extractEntry index.js
+415 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+416 silly gunzTarPerm extractEntry .travis.yml
+417 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+418 silly gunzTarPerm extractEntry .travis.yml
+419 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+420 silly gunzTarPerm extractEntry History.md
+421 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+422 silly gunzTarPerm extractEntry test/index.html
+423 silly gunzTarPerm extractEntry test/test.js
+424 silly gunzTarPerm extractEntry .travis.yml
+425 silly gunzTarPerm extractEntry History.md
+426 silly gunzTarPerm extractEntry .travis.yml
+427 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+428 silly gunzTarPerm extractEntry History.md
+429 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+430 silly gunzTarPerm extractEntry .travis.yml
+431 silly gunzTarPerm extractEntry History.md
+432 silly gunzTarPerm extractEntry test/support/jquery.js
+433 silly gunzTarPerm extractEntry Makefile
+434 silly gunzTarPerm extractEntry lib/index.js
+435 silly gunzTarPerm extractEntry component.json
+436 silly gunzTarPerm modified mode [ 'component.json', 438, 420 ]
+437 silly gunzTarPerm extractEntry Makefile
+438 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+439 silly gunzTarPerm extractEntry Makefile
+440 silly gunzTarPerm extractEntry test/index.js
+441 silly gunzTarPerm extractEntry lib/index.js
+442 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+443 silly gunzTarPerm extractEntry Makefile
+444 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+445 silly gunzTarPerm extractEntry test/index.js
+446 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+447 silly gunzTarPerm extractEntry lib/promise.js
+448 silly gunzTarPerm modified mode [ 'lib/promise.js', 438, 420 ]
+449 silly gunzTarPerm extractEntry Makefile
+450 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+451 silly gunzTarPerm extractEntry test/promise.test.js
+452 silly gunzTarPerm modified mode [ 'test/promise.test.js', 438, 420 ]
+453 silly gunzTarPerm extractEntry test/promises-A.js
+454 silly gunzTarPerm modified mode [ 'test/promises-A.js', 438, 420 ]
+455 silly gunzTarPerm extractEntry History.md
+456 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+457 silly gunzTarPerm extractEntry test/index.js
+458 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+459 silly gunzTarPerm extractEntry lib/sliced.js
+460 silly gunzTarPerm modified mode [ 'lib/sliced.js', 438, 420 ]
+461 silly gunzTarPerm extractEntry test/index.js
+462 silly gunzTarPerm extractEntry CONTRIBUTING.md
+463 silly gunzTarPerm extractEntry Makefile
+464 silly gunzTarPerm extractEntry Readme.md
+465 silly gunzTarPerm extractEntry lib/mongodb/admin.js
+466 silly gunzTarPerm extractEntry lib/mongodb/collection.js
+467 silly gunzTarPerm extractEntry lib/mongodb/mongo_client.js
+468 silly gunzTarPerm extractEntry lib/mongodb/index.js
+469 silly gunzTarPerm extractEntry lib/mongodb/cursor.js
+470 silly gunzTarPerm extractEntry lib/mongodb/db.js
+471 silly gunzTarPerm extractEntry lib/mongodb/utils.js
+472 silly lockFile 993b0671-ngoose-node-modules-regexp-clone tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/regexp-clone
+473 silly lockFile 993b0671-ngoose-node-modules-regexp-clone tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/regexp-clone
+474 silly lockFile dd8cdef7-m-regexp-clone-0-0-1-package-tgz tar:///home/vagrant/.npm/regexp-clone/0.0.1/package.tgz
+475 silly lockFile dd8cdef7-m-regexp-clone-0-0-1-package-tgz tar:///home/vagrant/.npm/regexp-clone/0.0.1/package.tgz
+476 silly gunzTarPerm extractEntry lib/mongodb/cursorstream.js
+477 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_cr.js
+478 info preinstall regexp-clone@0.0.1
+479 verbose readDependencies using package.json deps
+480 verbose readDependencies using package.json deps
+481 silly resolved []
+482 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/regexp-clone
+483 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/regexp-clone
+484 verbose linkStuff [ false,
+484 verbose linkStuff   false,
+484 verbose linkStuff   false,
+484 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules' ]
+485 info linkStuff regexp-clone@0.0.1
+486 verbose linkBins regexp-clone@0.0.1
+487 verbose linkMans regexp-clone@0.0.1
+488 verbose rebuildBundles regexp-clone@0.0.1
+489 info install regexp-clone@0.0.1
+490 info postinstall regexp-clone@0.0.1
+491 silly lockFile bf081412-dules-mongoose-node-modules-muri tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/muri
+492 silly lockFile bf081412-dules-mongoose-node-modules-muri tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/muri
+493 silly lockFile ad676955-grant-npm-muri-0-3-1-package-tgz tar:///home/vagrant/.npm/muri/0.3.1/package.tgz
+494 silly lockFile ad676955-grant-npm-muri-0-3-1-package-tgz tar:///home/vagrant/.npm/muri/0.3.1/package.tgz
+495 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_gssapi.js
+496 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_plain.js
+497 silly lockFile 9e13acde-ules-mongoose-node-modules-hooks tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/hooks
+498 silly lockFile 9e13acde-ules-mongoose-node-modules-hooks tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/hooks
+499 silly lockFile 6b82940a-les-mongoose-node-modules-sliced tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/sliced
+500 silly lockFile 6b82940a-les-mongoose-node-modules-sliced tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/sliced
+501 silly lockFile 9a82df86-rant-npm-hooks-0-2-1-package-tgz tar:///home/vagrant/.npm/hooks/0.2.1/package.tgz
+502 silly lockFile 9a82df86-rant-npm-hooks-0-2-1-package-tgz tar:///home/vagrant/.npm/hooks/0.2.1/package.tgz
+503 silly lockFile 97fc4225-ant-npm-sliced-0-0-5-package-tgz tar:///home/vagrant/.npm/sliced/0.0.5/package.tgz
+504 silly lockFile 97fc4225-ant-npm-sliced-0-0-5-package-tgz tar:///home/vagrant/.npm/sliced/0.0.5/package.tgz
+505 info preinstall muri@0.3.1
+506 silly lockFile 2d99bd97-s-mongoose-node-modules-mpromise tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise
+507 silly lockFile 2d99bd97-s-mongoose-node-modules-mpromise tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise
+508 silly lockFile b87efe41-t-npm-mpromise-0-2-1-package-tgz tar:///home/vagrant/.npm/mpromise/0.2.1/package.tgz
+509 silly lockFile b87efe41-t-npm-mpromise-0-2-1-package-tgz tar:///home/vagrant/.npm/mpromise/0.2.1/package.tgz
+510 info preinstall hooks@0.2.1
+511 info preinstall sliced@0.0.5
+512 verbose readDependencies using package.json deps
+513 verbose readDependencies using package.json deps
+514 verbose readDependencies using package.json deps
+515 silly resolved []
+516 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/muri
+517 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/muri
+518 verbose linkStuff [ false,
+518 verbose linkStuff   false,
+518 verbose linkStuff   false,
+518 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules' ]
+519 info linkStuff muri@0.3.1
+520 verbose linkBins muri@0.3.1
+521 verbose linkMans muri@0.3.1
+522 verbose rebuildBundles muri@0.3.1
+523 verbose readDependencies using package.json deps
+524 verbose readDependencies using package.json deps
+525 silly resolved []
+526 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/hooks
+527 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/hooks
+528 verbose linkStuff [ false,
+528 verbose linkStuff   false,
+528 verbose linkStuff   false,
+528 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules' ]
+529 info linkStuff hooks@0.2.1
+530 verbose linkBins hooks@0.2.1
+531 verbose linkMans hooks@0.2.1
+532 verbose rebuildBundles hooks@0.2.1
+533 info install muri@0.3.1
+534 info preinstall mpromise@0.2.1
+535 verbose readDependencies using package.json deps
+536 silly resolved []
+537 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/sliced
+538 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/sliced
+539 verbose linkStuff [ false,
+539 verbose linkStuff   false,
+539 verbose linkStuff   false,
+539 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules' ]
+540 info linkStuff sliced@0.0.5
+541 verbose linkBins sliced@0.0.5
+542 verbose linkMans sliced@0.0.5
+543 verbose rebuildBundles sliced@0.0.5
+544 info install hooks@0.2.1
+545 info install sliced@0.0.5
+546 info postinstall muri@0.3.1
+547 info postinstall hooks@0.2.1
+548 info postinstall sliced@0.0.5
+549 verbose readDependencies using package.json deps
+550 verbose readDependencies using package.json deps
+551 verbose cache add [ 'sliced@0.0.4', null ]
+552 verbose cache add name=undefined spec="sliced@0.0.4" args=["sliced@0.0.4",null]
+553 verbose parsed url { protocol: null,
+553 verbose parsed url   slashes: null,
+553 verbose parsed url   auth: null,
+553 verbose parsed url   host: null,
+553 verbose parsed url   port: null,
+553 verbose parsed url   hostname: null,
+553 verbose parsed url   hash: null,
+553 verbose parsed url   search: null,
+553 verbose parsed url   query: null,
+553 verbose parsed url   pathname: 'sliced@0.0.4',
+553 verbose parsed url   path: 'sliced@0.0.4',
+553 verbose parsed url   href: 'sliced@0.0.4' }
+554 verbose cache add name="sliced" spec="0.0.4" args=["sliced","0.0.4"]
+555 verbose parsed url { protocol: null,
+555 verbose parsed url   slashes: null,
+555 verbose parsed url   auth: null,
+555 verbose parsed url   host: null,
+555 verbose parsed url   port: null,
+555 verbose parsed url   hostname: null,
+555 verbose parsed url   hash: null,
+555 verbose parsed url   search: null,
+555 verbose parsed url   query: null,
+555 verbose parsed url   pathname: '0.0.4',
+555 verbose parsed url   path: '0.0.4',
+555 verbose parsed url   href: '0.0.4' }
+556 verbose addNamed [ 'sliced', '0.0.4' ]
+557 verbose addNamed [ '0.0.4', '0.0.4' ]
+558 silly lockFile a5aff32b-sliced-0-0-4 sliced@0.0.4
+559 verbose lock sliced@0.0.4 /home/vagrant/.npm/a5aff32b-sliced-0-0-4.lock
+560 verbose registry.get sliced not expired, no request
+561 silly lockFile a5aff32b-sliced-0-0-4 sliced@0.0.4
+562 silly lockFile a5aff32b-sliced-0-0-4 sliced@0.0.4
+563 silly resolved [ { name: 'sliced',
+563 silly resolved     version: '0.0.4',
+563 silly resolved     description: 'A faster Node.js alternative to Array.prototype.slice.call(arguments)',
+563 silly resolved     main: 'index.js',
+563 silly resolved     scripts: { test: 'make test' },
+563 silly resolved     repository: { type: 'git', url: 'git://github.com/aheckmann/sliced' },
+563 silly resolved     keywords: [ 'arguments', 'slice', 'array' ],
+563 silly resolved     author:
+563 silly resolved      { name: 'Aaron Heckmann',
+563 silly resolved        email: 'aaron.heckmann+github@gmail.com' },
+563 silly resolved     license: 'MIT',
+563 silly resolved     devDependencies: { mocha: '1.5.0', benchmark: '~1.0.0' },
+563 silly resolved     _id: 'sliced@0.0.4',
+563 silly resolved     dist:
+563 silly resolved      { shasum: '34f89a6db1f31fa525f5a570f5bcf877cf0955ee',
+563 silly resolved        tarball: 'http://registry.npmjs.org/sliced/-/sliced-0.0.4.tgz' },
+563 silly resolved     _npmVersion: '1.1.59',
+563 silly resolved     _npmUser: { name: 'aaron', email: 'aaron.heckmann+github@gmail.com' },
+563 silly resolved     maintainers: [ [Object] ],
+563 silly resolved     directories: {},
+563 silly resolved     _shasum: '34f89a6db1f31fa525f5a570f5bcf877cf0955ee',
+563 silly resolved     _from: 'sliced@0.0.4',
+563 silly resolved     _resolved: 'https://registry.npmjs.org/sliced/-/sliced-0.0.4.tgz',
+563 silly resolved     bugs: { url: 'https://github.com/aheckmann/sliced/issues' },
+563 silly resolved     readme: 'ERROR: No README data found!',
+563 silly resolved     homepage: 'https://github.com/aheckmann/sliced' } ]
+564 info install sliced@0.0.4 into /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise
+565 info installOne sliced@0.0.4
+566 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise/node_modules/sliced unbuild
+567 verbose tar unpack /home/vagrant/.npm/sliced/0.0.4/package.tgz
+568 silly lockFile 3200fd31-les-mpromise-node-modules-sliced tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise/node_modules/sliced
+569 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise/node_modules/sliced /home/vagrant/.npm/3200fd31-les-mpromise-node-modules-sliced.lock
+570 silly lockFile c26329ae-ant-npm-sliced-0-0-4-package-tgz tar:///home/vagrant/.npm/sliced/0.0.4/package.tgz
+571 verbose lock tar:///home/vagrant/.npm/sliced/0.0.4/package.tgz /home/vagrant/.npm/c26329ae-ant-npm-sliced-0-0-4-package-tgz.lock
+572 silly gunzTarPerm modes [ '755', '644' ]
+573 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_sspi.js
+574 silly gunzTarPerm extractEntry lib/mongodb/gridfs/chunk.js
+575 silly gunzTarPerm extractEntry package.json
+576 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+577 silly gunzTarPerm extractEntry .npmignore
+578 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+579 silly gunzTarPerm extractEntry README.md
+580 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+581 silly lockFile 6fec9b14-ules-mongoose-node-modules-mpath tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpath
+582 silly lockFile 6fec9b14-ules-mongoose-node-modules-mpath tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpath
+583 silly lockFile 2bfeb852-rant-npm-mpath-0-1-1-package-tgz tar:///home/vagrant/.npm/mpath/0.1.1/package.tgz
+584 silly lockFile 2bfeb852-rant-npm-mpath-0-1-1-package-tgz tar:///home/vagrant/.npm/mpath/0.1.1/package.tgz
+585 silly gunzTarPerm extractEntry LICENSE
+586 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+587 silly gunzTarPerm extractEntry bench.js
+588 silly gunzTarPerm modified mode [ 'bench.js', 438, 420 ]
+589 info preinstall mpath@0.1.1
+590 verbose readDependencies using package.json deps
+591 verbose readDependencies using package.json deps
+592 silly resolved []
+593 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpath
+594 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpath
+595 verbose linkStuff [ false,
+595 verbose linkStuff   false,
+595 verbose linkStuff   false,
+595 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules' ]
+596 info linkStuff mpath@0.1.1
+597 verbose linkBins mpath@0.1.1
+598 verbose linkMans mpath@0.1.1
+599 verbose rebuildBundles mpath@0.1.1
+600 info install mpath@0.1.1
+601 info postinstall mpath@0.1.1
+602 silly gunzTarPerm extractEntry index.js
+603 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+604 silly gunzTarPerm extractEntry .travis.yml
+605 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+606 silly gunzTarPerm extractEntry component.json
+607 silly gunzTarPerm modified mode [ 'component.json', 438, 420 ]
+608 silly gunzTarPerm extractEntry Makefile
+609 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+610 silly gunzTarPerm extractEntry History.md
+611 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+612 silly gunzTarPerm extractEntry test/index.js
+613 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+614 silly gunzTarPerm extractEntry lib/sliced.js
+615 silly gunzTarPerm modified mode [ 'lib/sliced.js', 438, 420 ]
+616 silly gunzTarPerm extractEntry lib/mongodb/gridfs/grid.js
+617 silly gunzTarPerm extractEntry lib/mongodb/gridfs/gridstore.js
+618 silly gunzTarPerm extractEntry lib/mongodb/gridfs/readstream.js
+619 silly gunzTarPerm extractEntry lib/mongodb/connection/base.js
+620 silly gunzTarPerm extractEntry lib/mongodb/connection/connection.js
+621 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_pool.js
+622 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_utils.js
+623 silly lockFile 3200fd31-les-mpromise-node-modules-sliced tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise/node_modules/sliced
+624 silly lockFile 3200fd31-les-mpromise-node-modules-sliced tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise/node_modules/sliced
+625 silly lockFile c26329ae-ant-npm-sliced-0-0-4-package-tgz tar:///home/vagrant/.npm/sliced/0.0.4/package.tgz
+626 silly lockFile c26329ae-ant-npm-sliced-0-0-4-package-tgz tar:///home/vagrant/.npm/sliced/0.0.4/package.tgz
+627 info preinstall sliced@0.0.4
+628 verbose readDependencies using package.json deps
+629 verbose readDependencies using package.json deps
+630 silly resolved []
+631 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise/node_modules/sliced
+632 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise/node_modules/sliced
+633 verbose linkStuff [ false,
+633 verbose linkStuff   false,
+633 verbose linkStuff   false,
+633 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise/node_modules' ]
+634 info linkStuff sliced@0.0.4
+635 verbose linkBins sliced@0.0.4
+636 verbose linkMans sliced@0.0.4
+637 verbose rebuildBundles sliced@0.0.4
+638 info install sliced@0.0.4
+639 info postinstall sliced@0.0.4
+640 silly lockFile d2ec0185-modules-mongoose-node-modules-ms tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/ms
+641 silly lockFile d2ec0185-modules-mongoose-node-modules-ms tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/ms
+642 silly lockFile 84f319b8-vagrant-npm-ms-0-1-0-package-tgz tar:///home/vagrant/.npm/ms/0.1.0/package.tgz
+643 silly lockFile 84f319b8-vagrant-npm-ms-0-1-0-package-tgz tar:///home/vagrant/.npm/ms/0.1.0/package.tgz
+644 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise
+645 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mpromise
+646 verbose linkStuff [ false,
+646 verbose linkStuff   false,
+646 verbose linkStuff   false,
+646 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules' ]
+647 info linkStuff mpromise@0.2.1
+648 verbose linkBins mpromise@0.2.1
+649 verbose linkMans mpromise@0.2.1
+650 verbose rebuildBundles mpromise@0.2.1
+651 verbose rebuildBundles [ 'sliced' ]
+652 info install mpromise@0.2.1
+653 info preinstall ms@0.1.0
+654 info postinstall mpromise@0.2.1
+655 verbose readDependencies using package.json deps
+656 verbose readDependencies using package.json deps
+657 silly resolved []
+658 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/ms
+659 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/ms
+660 verbose linkStuff [ false,
+660 verbose linkStuff   false,
+660 verbose linkStuff   false,
+660 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules' ]
+661 info linkStuff ms@0.1.0
+662 verbose linkBins ms@0.1.0
+663 verbose linkMans ms@0.1.0
+664 verbose rebuildBundles ms@0.1.0
+665 info install ms@0.1.0
+666 info postinstall ms@0.1.0
+667 silly gunzTarPerm extractEntry lib/mongodb/connection/mongos.js
+668 silly gunzTarPerm extractEntry lib/mongodb/connection/read_preference.js
+669 silly gunzTarPerm extractEntry lib/mongodb/connection/server.js
+670 silly gunzTarPerm extractEntry lib/mongodb/connection/url_parser.js
+671 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/ha.js
+672 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/options.js
+673 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/repl_set.js
+674 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/repl_set_state.js
+675 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/strategies/ping_strategy.js
+676 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/strategies/statistics_strategy.js
+677 silly gunzTarPerm extractEntry lib/mongodb/commands/base_command.js
+678 silly gunzTarPerm extractEntry lib/mongodb/commands/db_command.js
+679 silly gunzTarPerm extractEntry lib/mongodb/commands/delete_command.js
+680 silly gunzTarPerm extractEntry lib/mongodb/commands/get_more_command.js
+681 silly gunzTarPerm extractEntry lib/mongodb/commands/insert_command.js
+682 silly gunzTarPerm extractEntry lib/mongodb/commands/kill_cursor_command.js
+683 silly gunzTarPerm extractEntry lib/mongodb/commands/query_command.js
+684 silly gunzTarPerm extractEntry lib/mongodb/commands/update_command.js
+685 silly gunzTarPerm extractEntry lib/mongodb/responses/mongo_reply.js
+686 silly lockFile 99e1ec61-es-mongoose-node-modules-mongodb tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb
+687 silly lockFile 99e1ec61-es-mongoose-node-modules-mongodb tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb
+688 silly lockFile 4d2a1bfc-t-npm-mongodb-1-3-19-package-tgz tar:///home/vagrant/.npm/mongodb/1.3.19/package.tgz
+689 silly lockFile 4d2a1bfc-t-npm-mongodb-1-3-19-package-tgz tar:///home/vagrant/.npm/mongodb/1.3.19/package.tgz
+690 info preinstall mongodb@1.3.19
+691 verbose readDependencies using package.json deps
+692 verbose readDependencies using package.json deps
+693 verbose cache add [ 'bson@0.2.2', null ]
+694 verbose cache add name=undefined spec="bson@0.2.2" args=["bson@0.2.2",null]
+695 verbose parsed url { protocol: null,
+695 verbose parsed url   slashes: null,
+695 verbose parsed url   auth: null,
+695 verbose parsed url   host: null,
+695 verbose parsed url   port: null,
+695 verbose parsed url   hostname: null,
+695 verbose parsed url   hash: null,
+695 verbose parsed url   search: null,
+695 verbose parsed url   query: null,
+695 verbose parsed url   pathname: 'bson@0.2.2',
+695 verbose parsed url   path: 'bson@0.2.2',
+695 verbose parsed url   href: 'bson@0.2.2' }
+696 verbose cache add [ 'kerberos@0.0.3', null ]
+697 verbose cache add name=undefined spec="kerberos@0.0.3" args=["kerberos@0.0.3",null]
+698 verbose parsed url { protocol: null,
+698 verbose parsed url   slashes: null,
+698 verbose parsed url   auth: null,
+698 verbose parsed url   host: null,
+698 verbose parsed url   port: null,
+698 verbose parsed url   hostname: null,
+698 verbose parsed url   hash: null,
+698 verbose parsed url   search: null,
+698 verbose parsed url   query: null,
+698 verbose parsed url   pathname: 'kerberos@0.0.3',
+698 verbose parsed url   path: 'kerberos@0.0.3',
+698 verbose parsed url   href: 'kerberos@0.0.3' }
+699 verbose cache add name="bson" spec="0.2.2" args=["bson","0.2.2"]
+700 verbose parsed url { protocol: null,
+700 verbose parsed url   slashes: null,
+700 verbose parsed url   auth: null,
+700 verbose parsed url   host: null,
+700 verbose parsed url   port: null,
+700 verbose parsed url   hostname: null,
+700 verbose parsed url   hash: null,
+700 verbose parsed url   search: null,
+700 verbose parsed url   query: null,
+700 verbose parsed url   pathname: '0.2.2',
+700 verbose parsed url   path: '0.2.2',
+700 verbose parsed url   href: '0.2.2' }
+701 verbose addNamed [ 'bson', '0.2.2' ]
+702 verbose addNamed [ '0.2.2', '0.2.2' ]
+703 silly lockFile 372101c0-bson-0-2-2 bson@0.2.2
+704 verbose lock bson@0.2.2 /home/vagrant/.npm/372101c0-bson-0-2-2.lock
+705 verbose cache add name="kerberos" spec="0.0.3" args=["kerberos","0.0.3"]
+706 verbose parsed url { protocol: null,
+706 verbose parsed url   slashes: null,
+706 verbose parsed url   auth: null,
+706 verbose parsed url   host: null,
+706 verbose parsed url   port: null,
+706 verbose parsed url   hostname: null,
+706 verbose parsed url   hash: null,
+706 verbose parsed url   search: null,
+706 verbose parsed url   query: null,
+706 verbose parsed url   pathname: '0.0.3',
+706 verbose parsed url   path: '0.0.3',
+706 verbose parsed url   href: '0.0.3' }
+707 verbose addNamed [ 'kerberos', '0.0.3' ]
+708 verbose addNamed [ '0.0.3', '0.0.3' ]
+709 silly lockFile fba4e7a6-kerberos-0-0-3 kerberos@0.0.3
+710 verbose lock kerberos@0.0.3 /home/vagrant/.npm/fba4e7a6-kerberos-0-0-3.lock
+711 verbose url raw bson
+712 verbose url resolving [ 'https://registry.npmjs.org/', './bson' ]
+713 verbose url resolved https://registry.npmjs.org/bson
+714 info trying registry request attempt 1 at 18:35:08
+715 verbose etag "3JA7YUYKYJEJYJTYC81GGPDTG"
+716 http GET https://registry.npmjs.org/bson
+717 verbose url raw kerberos
+718 verbose url resolving [ 'https://registry.npmjs.org/', './kerberos' ]
+719 verbose url resolved https://registry.npmjs.org/kerberos
+720 info trying registry request attempt 1 at 18:35:08
+721 verbose etag "8CVYV6MHR7PH1DPWXSA2CVEQZ"
+722 http GET https://registry.npmjs.org/kerberos
+723 http 304 https://registry.npmjs.org/kerberos
+724 silly registry.get cb [ 304,
+724 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:09 GMT',
+724 silly registry.get     via: '1.1 varnish',
+724 silly registry.get     'cache-control': 'max-age=300',
+724 silly registry.get     etag: '"8CVYV6MHR7PH1DPWXSA2CVEQZ"',
+724 silly registry.get     age: '213',
+724 silly registry.get     connection: 'keep-alive',
+724 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+724 silly registry.get     'x-cache': 'HIT',
+724 silly registry.get     'x-cache-hits': '2',
+724 silly registry.get     'x-timer': 'S1450982109.577787,VS0,VE0',
+724 silly registry.get     vary: 'Accept' } ]
+725 verbose etag kerberos from cache
+726 silly lockFile fba4e7a6-kerberos-0-0-3 kerberos@0.0.3
+727 silly lockFile fba4e7a6-kerberos-0-0-3 kerberos@0.0.3
+728 http 304 https://registry.npmjs.org/bson
+729 silly registry.get cb [ 304,
+729 silly registry.get   { date: 'Thu, 24 Dec 2015 18:35:09 GMT',
+729 silly registry.get     via: '1.1 varnish',
+729 silly registry.get     'cache-control': 'max-age=60',
+729 silly registry.get     etag: '"3JA7YUYKYJEJYJTYC81GGPDTG"',
+729 silly registry.get     age: '15',
+729 silly registry.get     connection: 'keep-alive',
+729 silly registry.get     'x-served-by': 'cache-jfk1034-JFK',
+729 silly registry.get     'x-cache': 'HIT',
+729 silly registry.get     'x-cache-hits': '1',
+729 silly registry.get     'x-timer': 'S1450982109.593980,VS0,VE0',
+729 silly registry.get     vary: 'Accept' } ]
+730 verbose etag bson from cache
+731 silly lockFile 372101c0-bson-0-2-2 bson@0.2.2
+732 silly lockFile 372101c0-bson-0-2-2 bson@0.2.2
+733 silly resolved [ { name: 'kerberos',
+733 silly resolved     version: '0.0.3',
+733 silly resolved     description: 'Kerberos library for Node.js',
+733 silly resolved     main: 'index.js',
+733 silly resolved     scripts:
+733 silly resolved      { install: '(node-gyp rebuild 2> builderror.log) || (exit 0)',
+733 silly resolved        test: 'nodeunit ./test' },
+733 silly resolved     repository: { type: 'git', url: 'https://github.com/christkv/kerberos.git' },
+733 silly resolved     keywords: [ 'kerberos', 'security', 'authentication' ],
+733 silly resolved     devDependencies: { nodeunit: 'latest' },
+733 silly resolved     author: { name: 'Christian Amor Kvalheim' },
+733 silly resolved     license: 'Apache 2.0',
+733 silly resolved     gitHead: 'bb01d4fe322e022999aca19da564e7d9db59a8ed',
+733 silly resolved     bugs: { url: 'https://github.com/christkv/kerberos/issues' },
+733 silly resolved     _id: 'kerberos@0.0.3',
+733 silly resolved     dist:
+733 silly resolved      { shasum: '4285d92a0748db2784062f5adcec9f5956cb818a',
+733 silly resolved        tarball: 'http://registry.npmjs.org/kerberos/-/kerberos-0.0.3.tgz' },
+733 silly resolved     _from: 'kerberos@0.0.3',
+733 silly resolved     _npmVersion: '1.3.5',
+733 silly resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+733 silly resolved     maintainers: [ [Object] ],
+733 silly resolved     directories: {},
+733 silly resolved     _shasum: '4285d92a0748db2784062f5adcec9f5956cb818a',
+733 silly resolved     _resolved: 'https://registry.npmjs.org/kerberos/-/kerberos-0.0.3.tgz',
+733 silly resolved     readme: 'ERROR: No README data found!',
+733 silly resolved     homepage: 'https://github.com/christkv/kerberos' },
+733 silly resolved   { name: 'bson',
+733 silly resolved     description: 'A bson parser for node.js and the browser',
+733 silly resolved     keywords: [ 'mongodb', 'bson', 'parser' ],
+733 silly resolved     version: '0.2.2',
+733 silly resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+733 silly resolved     contributors: [],
+733 silly resolved     repository: { type: 'git', url: 'git://github.com/mongodb/js-bson.git' },
+733 silly resolved     bugs: { url: 'https://github.com/mongodb/js-bson/issues' },
+733 silly resolved     devDependencies: { nodeunit: '0.7.3', gleak: '0.2.3', one: '2.X.X' },
+733 silly resolved     config: { native: false },
+733 silly resolved     main: './lib/bson/index',
+733 silly resolved     directories: { lib: './lib/bson' },
+733 silly resolved     engines: { node: '>=0.6.19' },
+733 silly resolved     scripts:
+733 silly resolved      { install: '(node-gyp rebuild 2> builderror.log) || (exit 0)',
+733 silly resolved        test: 'nodeunit ./test/node && TEST_NATIVE=TRUE nodeunit ./test/node' },
+733 silly resolved     licenses: [ [Object] ],
+733 silly resolved     _id: 'bson@0.2.2',
+733 silly resolved     dist:
+733 silly resolved      { shasum: '3dbf984acb9d33a6878b46e6fb7afbd611856a60',
+733 silly resolved        tarball: 'http://registry.npmjs.org/bson/-/bson-0.2.2.tgz' },
+733 silly resolved     _from: 'bson@0.2.2',
+733 silly resolved     _npmVersion: '1.2.23',
+733 silly resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+733 silly resolved     maintainers: [ [Object], [Object] ],
+733 silly resolved     _shasum: '3dbf984acb9d33a6878b46e6fb7afbd611856a60',
+733 silly resolved     _resolved: 'https://registry.npmjs.org/bson/-/bson-0.2.2.tgz',
+733 silly resolved     readme: 'ERROR: No README data found!',
+733 silly resolved     homepage: 'https://github.com/mongodb/js-bson' } ]
+734 info install kerberos@0.0.3 into /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb
+735 info install bson@0.2.2 into /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb
+736 info installOne kerberos@0.0.3
+737 info installOne bson@0.2.2
+738 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos unbuild
+739 info /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/bson unbuild
+740 verbose tar unpack /home/vagrant/.npm/kerberos/0.0.3/package.tgz
+741 silly lockFile 08794df0-es-mongodb-node-modules-kerberos tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos
+742 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos /home/vagrant/.npm/08794df0-es-mongodb-node-modules-kerberos.lock
+743 silly lockFile 4d410ddf-t-npm-kerberos-0-0-3-package-tgz tar:///home/vagrant/.npm/kerberos/0.0.3/package.tgz
+744 verbose lock tar:///home/vagrant/.npm/kerberos/0.0.3/package.tgz /home/vagrant/.npm/4d410ddf-t-npm-kerberos-0-0-3-package-tgz.lock
+745 verbose tar unpack /home/vagrant/.npm/bson/0.2.2/package.tgz
+746 silly lockFile 9799bbcf-odules-mongodb-node-modules-bson tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/bson
+747 verbose lock tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/bson /home/vagrant/.npm/9799bbcf-odules-mongodb-node-modules-bson.lock
+748 silly lockFile ccbb127c-grant-npm-bson-0-2-2-package-tgz tar:///home/vagrant/.npm/bson/0.2.2/package.tgz
+749 verbose lock tar:///home/vagrant/.npm/bson/0.2.2/package.tgz /home/vagrant/.npm/ccbb127c-grant-npm-bson-0-2-2-package-tgz.lock
+750 silly gunzTarPerm modes [ '755', '644' ]
+751 silly gunzTarPerm modes [ '755', '644' ]
+752 silly gunzTarPerm extractEntry package.json
+753 silly gunzTarPerm extractEntry package.json
+754 silly gunzTarPerm extractEntry README.md
+755 silly gunzTarPerm extractEntry LICENSE
+756 silly gunzTarPerm extractEntry README.md
+757 silly gunzTarPerm extractEntry build_browser.js
+758 silly gunzTarPerm extractEntry index.js
+759 silly gunzTarPerm extractEntry binding.gyp
+760 silly gunzTarPerm extractEntry build/Release/bson.exp
+761 silly gunzTarPerm extractEntry build/Release/bson.lib
+762 silly gunzTarPerm extractEntry lib/kerberos.js
+763 silly gunzTarPerm extractEntry build/Release/bson.node
+764 silly gunzTarPerm extractEntry build/Release/bson.pdb
+765 silly gunzTarPerm extractEntry lib/sspi.js
+766 silly gunzTarPerm extractEntry lib/kerberos_context.h
+767 silly gunzTarPerm extractEntry lib/kerberos.cc
+768 silly gunzTarPerm extractEntry lib/kerberos.h
+769 silly gunzTarPerm extractEntry build/Release/obj/bson/cl.write.1.tlog
+770 silly gunzTarPerm extractEntry lib/auth_processes/mongodb.js
+771 silly gunzTarPerm extractEntry lib/kerberos_context.cc
+772 silly gunzTarPerm extractEntry lib/base64.c
+773 silly gunzTarPerm extractEntry lib/kerberosgss.c
+774 silly gunzTarPerm extractEntry build/Release/obj/bson/bson.lastbuildstate
+775 silly gunzTarPerm extractEntry build/Release/obj/bson/bson.obj
+776 silly gunzTarPerm extractEntry lib/kerberosgss.h
+777 silly gunzTarPerm extractEntry lib/base64.h
+778 silly gunzTarPerm extractEntry lib/win32/base64.c
+779 silly gunzTarPerm extractEntry lib/win32/base64.h
+780 silly gunzTarPerm extractEntry lib/win32/kerberos.cc
+781 silly gunzTarPerm extractEntry lib/win32/kerberos.h
+782 silly gunzTarPerm extractEntry build/Release/obj/bson/bson.vcxprojResolveAssemblyReference.cache
+783 silly gunzTarPerm extractEntry lib/win32/kerberos_sspi.c
+784 silly gunzTarPerm extractEntry lib/win32/kerberos_sspi.h
+785 silly gunzTarPerm extractEntry lib/win32/worker.cc
+786 silly gunzTarPerm extractEntry lib/win32/worker.h
+787 silly gunzTarPerm extractEntry lib/win32/wrappers/security_credentials.js
+788 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer.js
+789 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer_descriptor.js
+790 silly gunzTarPerm extractEntry lib/win32/wrappers/security_context.js
+791 silly gunzTarPerm extractEntry build/Release/obj/bson/bson.write.1.tlog
+792 silly gunzTarPerm extractEntry build/Release/obj/bson/cl.command.1.tlog
+793 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer_descriptor.h
+794 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer.cc
+795 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer.h
+796 silly gunzTarPerm extractEntry lib/win32/wrappers/security_context.h
+797 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer_descriptor.cc
+798 silly gunzTarPerm extractEntry lib/win32/wrappers/security_credentials.cc
+799 silly gunzTarPerm extractEntry lib/win32/wrappers/security_credentials.h
+800 silly gunzTarPerm extractEntry lib/win32/wrappers/security_context.cc
+801 silly gunzTarPerm extractEntry lib/worker.cc
+802 silly gunzTarPerm extractEntry lib/worker.h
+803 silly gunzTarPerm extractEntry test/kerberos_tests.js
+804 silly gunzTarPerm extractEntry test/kerberos_win32_test.js
+805 silly gunzTarPerm extractEntry test/win32/security_buffer_descriptor_tests.js
+806 silly gunzTarPerm extractEntry test/win32/security_buffer_tests.js
+807 silly gunzTarPerm extractEntry test/win32/security_credentials_tests.js
+808 silly lockFile 08794df0-es-mongodb-node-modules-kerberos tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos
+809 silly lockFile 08794df0-es-mongodb-node-modules-kerberos tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos
+810 silly lockFile 4d410ddf-t-npm-kerberos-0-0-3-package-tgz tar:///home/vagrant/.npm/kerberos/0.0.3/package.tgz
+811 silly lockFile 4d410ddf-t-npm-kerberos-0-0-3-package-tgz tar:///home/vagrant/.npm/kerberos/0.0.3/package.tgz
+812 info preinstall kerberos@0.0.3
+813 verbose readDependencies using package.json deps
+814 verbose readDependencies using package.json deps
+815 silly resolved []
+816 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos
+817 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos
+818 verbose linkStuff [ false,
+818 verbose linkStuff   false,
+818 verbose linkStuff   false,
+818 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules' ]
+819 info linkStuff kerberos@0.0.3
+820 verbose linkBins kerberos@0.0.3
+821 verbose linkMans kerberos@0.0.3
+822 verbose rebuildBundles kerberos@0.0.3
+823 info install kerberos@0.0.3
+824 verbose unsafe-perm in lifecycle true
+825 silly gunzTarPerm extractEntry build/Release/obj/bson/cl.read.1.tlog
+826 silly gunzTarPerm extractEntry build/Release/obj/bson/bson.node.intermediate.manifest
+827 silly gunzTarPerm extractEntry build/Release/obj/bson/link.command.1.tlog
+828 silly gunzTarPerm extractEntry build/Release/obj/bson/link.read.1.tlog
+829 silly gunzTarPerm extractEntry build/Release/obj/bson/link.write.1.tlog
+830 silly gunzTarPerm extractEntry build/Release/obj/bson/mt.command.1.tlog
+831 info postinstall kerberos@0.0.3
+832 silly gunzTarPerm extractEntry build/Release/obj/bson/mt.read.1.tlog
+833 silly gunzTarPerm extractEntry build/Release/obj/bson/mt.write.1.tlog
+834 silly gunzTarPerm extractEntry build/Release/obj/bson/vcwindows7.1sdk.pdb
+835 silly gunzTarPerm extractEntry build/binding.sln
+836 silly gunzTarPerm extractEntry build/bson.vcxproj
+837 silly gunzTarPerm extractEntry build/bson.vcxproj.filters
+838 silly gunzTarPerm extractEntry build/config.gypi
+839 silly gunzTarPerm extractEntry browser_build/package.json
+840 silly gunzTarPerm extractEntry browser_build/bson.js
+841 silly gunzTarPerm extractEntry Makefile
+842 silly gunzTarPerm extractEntry .travis.yml
+843 silly gunzTarPerm extractEntry ext/index.js
+844 silly gunzTarPerm extractEntry ext/Makefile
+845 silly gunzTarPerm extractEntry ext/bson.cc
+846 silly gunzTarPerm extractEntry ext/bson.h
+847 silly gunzTarPerm extractEntry ext/win32/ia32/bson.node
+848 silly gunzTarPerm extractEntry ext/win32/x64/bson.node
+849 silly gunzTarPerm extractEntry ext/wscript
+850 silly gunzTarPerm extractEntry lib/bson/binary.js
+851 silly gunzTarPerm extractEntry lib/bson/code.js
+852 silly gunzTarPerm extractEntry lib/bson/db_ref.js
+853 silly gunzTarPerm extractEntry lib/bson/double.js
+854 silly gunzTarPerm extractEntry lib/bson/float_parser.js
+855 silly gunzTarPerm extractEntry lib/bson/bson.js
+856 silly gunzTarPerm extractEntry lib/bson/long.js
+857 silly gunzTarPerm extractEntry lib/bson/max_key.js
+858 silly gunzTarPerm extractEntry lib/bson/min_key.js
+859 silly gunzTarPerm extractEntry lib/bson/objectid.js
+860 silly gunzTarPerm extractEntry lib/bson/symbol.js
+861 silly gunzTarPerm extractEntry lib/bson/binary_parser.js
+862 silly gunzTarPerm extractEntry lib/bson/timestamp.js
+863 silly gunzTarPerm extractEntry lib/bson/index.js
+864 silly gunzTarPerm extractEntry binding.gyp
+865 silly gunzTarPerm extractEntry tools/gleak.js
+866 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine-html.js
+867 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine.js
+868 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/MIT.LICENSE
+869 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine.css
+870 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine_favicon.png
+871 silly lockFile 9799bbcf-odules-mongodb-node-modules-bson tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/bson
+872 silly lockFile 9799bbcf-odules-mongodb-node-modules-bson tar:///home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/bson
+873 silly lockFile ccbb127c-grant-npm-bson-0-2-2-package-tgz tar:///home/vagrant/.npm/bson/0.2.2/package.tgz
+874 silly lockFile ccbb127c-grant-npm-bson-0-2-2-package-tgz tar:///home/vagrant/.npm/bson/0.2.2/package.tgz
+875 info preinstall bson@0.2.2
+876 verbose readDependencies using package.json deps
+877 verbose readDependencies using package.json deps
+878 silly resolved []
+879 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/bson
+880 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules/bson
+881 verbose linkStuff [ false,
+881 verbose linkStuff   false,
+881 verbose linkStuff   false,
+881 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb/node_modules' ]
+882 info linkStuff bson@0.2.2
+883 verbose linkBins bson@0.2.2
+884 verbose linkMans bson@0.2.2
+885 verbose rebuildBundles bson@0.2.2
+886 info install bson@0.2.2
+887 verbose unsafe-perm in lifecycle true
+888 info postinstall bson@0.2.2
+889 verbose about to build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb
+890 info build /home/vagrant/app/Express/node_modules/mongoose/node_modules/mongodb
+891 verbose linkStuff [ false,
+891 verbose linkStuff   false,
+891 verbose linkStuff   false,
+891 verbose linkStuff   '/home/vagrant/app/Express/node_modules/mongoose/node_modules' ]
+892 info linkStuff mongodb@1.3.19
+893 verbose linkBins mongodb@1.3.19
+894 verbose linkMans mongodb@1.3.19
+895 verbose rebuildBundles mongodb@1.3.19
+896 verbose rebuildBundles [ 'bson', 'kerberos' ]
+897 info install mongodb@1.3.19
+898 info postinstall mongodb@1.3.19
+899 verbose about to build /home/vagrant/app/Express/node_modules/mongoose
+900 info build /home/vagrant/app/Express/node_modules/mongoose
+901 verbose linkStuff [ false, false, false, '/home/vagrant/app/Express/node_modules' ]
+902 info linkStuff mongoose@3.6.20
+903 verbose linkBins mongoose@3.6.20
+904 verbose linkMans mongoose@3.6.20
+905 verbose rebuildBundles mongoose@3.6.20
+906 verbose rebuildBundles [ 'hooks',
+906 verbose rebuildBundles   'mongodb',
+906 verbose rebuildBundles   'mpath',
+906 verbose rebuildBundles   'mpromise',
+906 verbose rebuildBundles   'ms',
+906 verbose rebuildBundles   'muri',
+906 verbose rebuildBundles   'regexp-clone',
+906 verbose rebuildBundles   'sliced' ]
+907 info install mongoose@3.6.20
+908 info postinstall mongoose@3.6.20
+909 info build /home/vagrant/app/Express
+910 verbose linkStuff [ false, false, false, '/home/vagrant/app' ]
+911 info linkStuff pokerapimongo@0.0.1
+912 verbose linkBins pokerapimongo@0.0.1
+913 verbose linkMans pokerapimongo@0.0.1
+914 verbose rebuildBundles pokerapimongo@0.0.1
+915 verbose rebuildBundles [ 'express', 'mongoose' ]
+916 verbose rebuild bundle /home/vagrant/app/Express/node_modules/express
+917 info build /home/vagrant/app/Express/node_modules/express
+918 info preinstall express@3.21.2
+919 verbose linkStuff [ false, false, false, '/home/vagrant/app/Express/node_modules' ]
+920 info linkStuff express@3.21.2
+921 verbose linkBins express@3.21.2
+922 verbose link bins [ { express: './bin/express' },
+922 verbose link bins   '/home/vagrant/app/Express/node_modules/.bin',
+922 verbose link bins   false ]
+923 verbose linkMans express@3.21.2
+924 verbose rebuildBundles express@3.21.2
+925 verbose rebuildBundles [ 'basic-auth',
+925 verbose rebuildBundles   'commander',
+925 verbose rebuildBundles   'connect',
+925 verbose rebuildBundles   'content-disposition',
+925 verbose rebuildBundles   'content-type',
+925 verbose rebuildBundles   'cookie',
+925 verbose rebuildBundles   'cookie-signature',
+925 verbose rebuildBundles   'debug',
+925 verbose rebuildBundles   'depd',
+925 verbose rebuildBundles   'escape-html',
+925 verbose rebuildBundles   'etag',
+925 verbose rebuildBundles   'fresh',
+925 verbose rebuildBundles   'merge-descriptors',
+925 verbose rebuildBundles   'methods',
+925 verbose rebuildBundles   'mkdirp',
+925 verbose rebuildBundles   'parseurl',
+925 verbose rebuildBundles   'proxy-addr',
+925 verbose rebuildBundles   'range-parser',
+925 verbose rebuildBundles   'send',
+925 verbose rebuildBundles   'utils-merge',
+925 verbose rebuildBundles   'vary' ]
+926 error Error: UNKNOWN, symlink '../express/bin/express'
+927 error If you need help, you may report this *entire* log,
+927 error including the npm and node versions, at:
+927 error     <http://github.com/npm/npm/issues>
+928 error System Linux 3.2.0-23-generic-pae
+929 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+930 error cwd /home/vagrant/app/Express
+931 error node -v v0.10.29
+932 error npm -v 1.4.14
+933 error path ../express/bin/express
+934 error code UNKNOWN
+935 error errno -1
+936 verbose exit [ -1, true ]

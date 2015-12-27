@@ -1,0 +1,15 @@
+li {
+  display: inline-block;
+}
+
+img {
+  width: 100px;
+}
+
+button {
+  display: block;
+}
+
+.history ul li img {
+  width: 70px;
+}
